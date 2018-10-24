@@ -1,8 +1,9 @@
 import * as React from "react";
+import Biography from "./Biography/Biography";
 
 class App extends React.Component {
   public render() {
-    return <div>An empty react project</div>;
+    return <Biography isOpen={true} />;
   }
 }
 
