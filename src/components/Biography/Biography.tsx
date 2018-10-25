@@ -1,30 +1,16 @@
 import * as React from "react";
 import BiographyTable from "./BiographyTable";
 import Modal from "@material-ui/core/Modal";
-import { AppState } from "src/reducers";
-import { connect } from "react-redux";
+import { Props } from "./types";
 
-interface Props {
-  isOpen: boolean;
-  readonly profile: AppState["activeProfile"];
-}
-
-class Biography extends React.Component<Props, any> {
-  handleClose = () => {};
-
+export default class Biography extends React.Component<Props> {
   public render() {
-    const { isOpen, profile } = this.props;
+    const { isOpen, profile, closeComponent } = this.props;
 
     return (
-      <Modal open={isOpen} onClose={this.handleClose}>
+      <Modal open={isOpen} onClose={closeComponent}>
         <BiographyTable profile={profile} />
       </Modal>
     );
   }
 }
-
-const mapAppStateToProps = (appState: AppState) => ({
-  profile: appState.activeProfile
-});
-
-export default connect(mapAppStateToProps)(Biography);

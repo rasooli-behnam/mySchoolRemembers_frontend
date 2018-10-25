@@ -4,15 +4,16 @@ import * as veteranBios from "src/sampleData/VeteranBios.json";
 import ExternalResource from "src/dataTypes/ExternalResource";
 import VeteranBio from "src/dataTypes/VeteranBio";
 import { AppState } from ".";
-import { GetActiveProfile } from "src/actions";
+import { GetActiveProfileAction } from "src/actions";
 
-export default function(prevState: AppState, action: GetActiveProfile) {
+export default function(prevState: AppState, action: GetActiveProfileAction) {
   if (action.type === constants.GET_ACTIVE_PROFILE) {
     return getProfile(action.payload.veteranID);
   }
 
-  if (prevState && prevState.activeProfile) return prevState.activeProfile;
-  else return initialState;
+  return prevState && prevState.activeProfile
+    ? prevState.activeProfile
+    : initialState;
 }
 
 const initialState = getProfile("189210");
