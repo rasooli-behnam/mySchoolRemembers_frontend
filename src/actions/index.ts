@@ -4,8 +4,12 @@ import {
   CloseBiographyComponentAction,
   ComponentsVisibilityActions,
   openBiographyComponent,
-  OpenBiographyComponentAction
-  } from "./componentsVisibilityActions";
+  OpenBiographyComponentAction,
+  openMultimediaComponent,
+  OpenMultimediaComponentAction,
+  closeMultimediaComponent,
+  CloseMultimediaComponentAction
+} from "./componentsVisibilityActions";
 
 export {
   getActiveProfile,
@@ -14,5 +18,9 @@ export {
   ComponentsVisibilityActions,
   GetActiveProfileAction,
   OpenBiographyComponentAction,
-  CloseBiographyComponentAction
+  CloseBiographyComponentAction,
+  openMultimediaComponent,
+  OpenMultimediaComponentAction,
+  closeMultimediaComponent,
+  CloseMultimediaComponentAction
 };

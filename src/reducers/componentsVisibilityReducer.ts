@@ -8,9 +8,13 @@ export default function(
 ) {
   switch (action.type) {
     case constants.OPEN_BIOGRAPHY_COMPONENT:
-      return { isBiographyOpen: true };
+      return { ...prevState.componentsVisibility, isBiographyOpen: true };
     case constants.CLOSE_BIOGRAPHY_COMPONENT:
-      return { isBiographyOpen: false };
+      return { ...prevState.componentsVisibility, isBiographyOpen: false };
+    case constants.OPEN_MULTIMEDIA_COMPONENT:
+      return { ...prevState.componentsVisibility, isMultimediaOpen: true };
+    case constants.CLOSE_MULTIMEDIA_COMPONENT:
+      return { ...prevState.componentsVisibility, isMultimediaOpen: false };
   }
 
   return prevState && prevState.componentsVisibility
@@ -19,5 +23,6 @@ export default function(
 }
 
 const initialState: AppState["componentsVisibility"] = {
-  isBiographyOpen: false
+  isBiographyOpen: false,
+  isMultimediaOpen: false
 };

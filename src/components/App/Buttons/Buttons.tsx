@@ -4,7 +4,11 @@ import { Props } from "./types";
 
 export default class Buttons extends React.Component<Props> {
   public render() {
-    const { classes, openBiographyComponent } = this.props;
+    const {
+      classes,
+      openBiographyComponent,
+      openMultimediaComponent
+    } = this.props;
     return (
       <MenuList className={classes.buttonsContainer}>
         <MenuItem>
@@ -14,6 +18,15 @@ export default class Buttons extends React.Component<Props> {
             variant={"contained"}
           >
             Biography
+          </Button>
+        </MenuItem>
+        <MenuItem>
+          <Button
+            className={classes.button}
+            onClick={openMultimediaComponent}
+            variant={"contained"}
+          >
+            Multimedia
           </Button>
         </MenuItem>
       </MenuList>

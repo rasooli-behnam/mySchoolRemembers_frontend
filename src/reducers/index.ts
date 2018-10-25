@@ -1,6 +1,7 @@
 import activeProfileReducer from "./activeProfileReducer";
 import componentsVisibilityReducer from "./componentsVisibilityReducer";
 import ExternalResource from "src/dataTypes/ExternalResource";
+import Multimedia from "src/dataTypes/Multimedia";
 import VeteranBio from "src/dataTypes/VeteranBio";
 
 export default function combineReducers(
@@ -17,8 +18,10 @@ export interface AppState {
   activeProfile: {
     veteranBio: VeteranBio;
     externalResources: ExternalResource[];
+    multimedias: Multimedia[];
   };
   componentsVisibility: {
     isBiographyOpen: boolean;
+    isMultimediaOpen: boolean;
   };
 }

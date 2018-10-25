@@ -1,8 +1,7 @@
 import * as constants from "src/constants";
 import * as externalResources from "src/sampleData/ExternalResources.json";
+import * as multimedias from "src/sampleData/Multimedias.json";
 import * as veteranBios from "src/sampleData/VeteranBios.json";
-import ExternalResource from "src/dataTypes/ExternalResource";
-import VeteranBio from "src/dataTypes/VeteranBio";
 import { AppState } from ".";
 import { GetActiveProfileAction } from "src/actions";
 
@@ -23,7 +22,8 @@ function getProfile(veteranID: string): AppState["activeProfile"] {
     veteranBio: veteranBios.data.find(vb => vb.VeteranID === veteranID) as any, //this 'as any' is required, because ts can't figure out the type
     externalResources: externalResources.data.filter(
       er => er.VeteranID === veteranID
-    )
+    ),
+    multimedias: multimedias.data.filter(m => m.VeteranID === veteranID)
   };
 
   return result;
