@@ -1,3 +1,3 @@
-import wrappers from "./wrappers";
+import enhancedComponent from "./wrappers";
 
-export default wrappers;
+export default enhancedComponent;
