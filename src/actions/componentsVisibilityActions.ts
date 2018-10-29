@@ -3,12 +3,18 @@ import { Action } from "redux";
 
 export type ComponentsVisibilityActions =
   | OpenBiographyComponentAction
-  | CloseBiographyComponentAction;
+  | CloseBiographyComponentAction
+  | OpenMultimediaComponentAction
+  | CloseMultimediaComponentAction
+  | OpenSearchComponentAction
+  | CloseSearchComponentAction;
 
 export interface OpenBiographyComponentAction extends Action<string> {}
 export interface CloseBiographyComponentAction extends Action<string> {}
 export interface OpenMultimediaComponentAction extends Action<string> {}
 export interface CloseMultimediaComponentAction extends Action<string> {}
+export interface OpenSearchComponentAction extends Action<string> {}
+export interface CloseSearchComponentAction extends Action<string> {}
 
 export function openBiographyComponent(): OpenBiographyComponentAction {
   return {
@@ -31,5 +37,17 @@ export function openMultimediaComponent(): OpenMultimediaComponentAction {
 export function closeMultimediaComponent(): CloseMultimediaComponentAction {
   return {
     type: constants.CLOSE_MULTIMEDIA_COMPONENT
+  };
+}
+
+export function openSearchComponent(): OpenSearchComponentAction {
+  return {
+    type: constants.OPEN_SEARCH_COMPONENT
+  };
+}
+
+export function closeSearchComponent(): CloseSearchComponentAction {
+  return {
+    type: constants.CLOSE_SEARCH_COMPONENT
   };
 }

@@ -7,7 +7,8 @@ export default class Buttons extends React.Component<Props> {
     const {
       classes,
       openBiographyComponent,
-      openMultimediaComponent
+      openMultimediaComponent,
+      openSearchComponent
     } = this.props;
     return (
       <MenuList className={classes.buttonsContainer}>
@@ -27,6 +28,15 @@ export default class Buttons extends React.Component<Props> {
             variant={"contained"}
           >
             Multimedia
+          </Button>
+        </MenuItem>
+        <MenuItem>
+          <Button
+            className={classes.button}
+            onClick={openSearchComponent}
+            variant={"contained"}
+          >
+            Search
           </Button>
         </MenuItem>
       </MenuList>

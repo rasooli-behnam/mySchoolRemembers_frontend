@@ -1,26 +1,37 @@
+import findProfiles, { FindProfilesAction } from "./findProfiles";
 import getActiveProfile, { GetActiveProfileAction } from "./getActiveProfile";
 import {
   closeBiographyComponent,
   CloseBiographyComponentAction,
+  closeMultimediaComponent,
+  CloseMultimediaComponentAction,
+  closeSearchComponent,
+  CloseSearchComponentAction,
   ComponentsVisibilityActions,
   openBiographyComponent,
   OpenBiographyComponentAction,
   openMultimediaComponent,
   OpenMultimediaComponentAction,
-  closeMultimediaComponent,
-  CloseMultimediaComponentAction
-} from "./componentsVisibilityActions";
+  openSearchComponent,
+  OpenSearchComponentAction
+  } from "./componentsVisibilityActions";
 
 export {
+  findProfiles,
+  FindProfilesAction,
   getActiveProfile,
-  openBiographyComponent,
-  closeBiographyComponent,
-  ComponentsVisibilityActions,
   GetActiveProfileAction,
-  OpenBiographyComponentAction,
+  closeBiographyComponent,
   CloseBiographyComponentAction,
+  closeMultimediaComponent,
+  CloseMultimediaComponentAction,
+  closeSearchComponent,
+  CloseSearchComponentAction,
+  ComponentsVisibilityActions,
+  openBiographyComponent,
+  OpenBiographyComponentAction,
   openMultimediaComponent,
   OpenMultimediaComponentAction,
-  closeMultimediaComponent,
-  CloseMultimediaComponentAction
+  openSearchComponent,
+  OpenSearchComponentAction
 };

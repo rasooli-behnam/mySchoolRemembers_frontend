@@ -15,6 +15,10 @@ export default function(
       return { ...prevState.componentsVisibility, isMultimediaOpen: true };
     case constants.CLOSE_MULTIMEDIA_COMPONENT:
       return { ...prevState.componentsVisibility, isMultimediaOpen: false };
+    case constants.OPEN_SEARCH_COMPONENT:
+      return { ...prevState.componentsVisibility, isSearchOpen: true };
+    case constants.CLOSE_SEARCH_COMPONENT:
+      return { ...prevState.componentsVisibility, isSearchOpen: false };
   }
 
   return prevState && prevState.componentsVisibility
@@ -24,5 +28,6 @@ export default function(
 
 const initialState: AppState["componentsVisibility"] = {
   isBiographyOpen: false,
-  isMultimediaOpen: false
+  isMultimediaOpen: false,
+  isSearchOpen: false
 };

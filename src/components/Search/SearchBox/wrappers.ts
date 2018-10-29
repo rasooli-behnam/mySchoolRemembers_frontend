@@ -1,16 +1,15 @@
 import styles from "./styles";
-import theComponent from "./Buttons";
+import theComponent from "./SearchBox";
 import withStyles from "@material-ui/core/styles/withStyles";
 import { connect } from "react-redux";
 import { Dispatch } from "redux";
-import { openBiographyComponent, openMultimediaComponent, openSearchComponent } from "src/actions";
+import { findProfiles, FindProfilesAction } from "src/actions";
 
 const theComponentWithStyles = withStyles(styles)(theComponent);
 
 const mapDispatchToProps = (dispatch: Dispatch) => ({
-  openBiographyComponent: () => dispatch(openBiographyComponent()),
-  openMultimediaComponent: () => dispatch(openMultimediaComponent()),
-  openSearchComponent: () => dispatch(openSearchComponent())
+  findProfiles: (prams: FindProfilesAction["payload"]) =>
+    dispatch(findProfiles(prams))
 });
 
 export default connect(
