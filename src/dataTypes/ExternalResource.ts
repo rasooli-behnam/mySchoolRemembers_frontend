@@ -1,5 +1,5 @@
-export default interface {
-    VeteranID: string;
-    ResourceName: string;
-    ResourceLink: string;
-  }
+export default interface ExternalResource {
+  VeteranID: string;
+  ResourceName: string;
+  ResourceLink: string;
+}
