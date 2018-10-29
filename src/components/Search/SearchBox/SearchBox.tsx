@@ -16,6 +16,12 @@ export default class SearchBox extends React.Component<Props, State> {
     };
   }
 
+  handleFormSubmit = (event: React.FormEvent<HTMLFormElement>) => {
+    event.preventDefault();
+    const { searchCategory, searchTerm } = this.state;
+    this.props.findProfiles({ searchCategory, searchTerm });
+  };
+
   handleSearchCategoryChange = (event: React.ChangeEvent<HTMLInputElement>) => {
     this.setState({ searchCategory: event.target.value });
   };
@@ -25,16 +31,12 @@ export default class SearchBox extends React.Component<Props, State> {
   };
 
   public render() {
-    const { classes, findProfiles } = this.props;
+    const { classes } = this.props;
     const { searchCategory, searchTerm } = this.state;
 
     return (
       <Paper className={classes.root}>
-        <form
-          onSubmit={() => findProfiles({ searchCategory, searchTerm })}
-          noValidate
-          autoComplete="off"
-        >
+        <form onSubmit={this.handleFormSubmit} noValidate autoComplete="off">
           <TextField
             select
             label="Category"
