@@ -10,7 +10,7 @@ const theComponentWithStyles = withStyles(styles)(theComponent);
 
 const mapAppStateToProps = (appState: AppState) => ({
   isOpen: appState.componentsVisibility.isMultimediaOpen,
-  profile: appState.activeProfile
+  multimedias: appState.multimedias
 });
 
 const mapDispatchToProps = (dispatch: Dispatch) => ({

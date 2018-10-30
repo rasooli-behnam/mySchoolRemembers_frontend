@@ -6,7 +6,7 @@ import { WithStyles } from "@material-ui/core";
 export interface Props extends WithStyles<typeof styles> {
   isOpen: boolean;
   closeComponent: typeof closeMultimediaComponent;
-  profile: AppState["activeProfile"];
+  multimedias: AppState["multimedias"];
 }
 
 export interface State {

@@ -24,7 +24,7 @@ export default class Buttons extends React.Component<Props> {
         <MenuItem>
           <Button
             className={classes.button}
-            onClick={openMultimediaComponent}
+            onClick={() => openMultimediaComponent()}
             variant={"contained"}
           >
             Multimedia

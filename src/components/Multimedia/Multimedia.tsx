@@ -12,7 +12,7 @@ export default class Multimedia extends React.Component<Props, State> {
   }
 
   mapMultimediasToUsableItems = () => {
-    return this.props.profile.multimedias.map(m => ({
+    return this.props.multimedias.map(m => ({
       src: m.Source,
       caption: m.Description,
       alt: m.Title

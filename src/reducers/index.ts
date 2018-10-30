@@ -2,6 +2,7 @@ import activeProfileReducer from "./activeProfileReducer";
 import componentsVisibilityReducer from "./componentsVisibilityReducer";
 import ExternalResource from "src/dataTypes/ExternalResource";
 import Multimedia from "src/dataTypes/Multimedia";
+import multimediasReducer from "./multimediasReducer";
 import profilesReducer from "./profilesReducer";
 import VeteranBio from "src/dataTypes/VeteranBio";
 
@@ -12,6 +13,7 @@ export default function combineReducers(
   return {
     activeProfile: activeProfileReducer(appState, action),
     componentsVisibility: componentsVisibilityReducer(appState, action),
+    multimedias: multimediasReducer(appState, action),
     profiles: profilesReducer(appState, action)
   };
 }
@@ -27,5 +29,6 @@ export interface AppState {
     isMultimediaOpen: boolean;
     isSearchOpen: boolean;
   };
+  multimedias: Multimedia[];
   profiles: VeteranBio[];
 }

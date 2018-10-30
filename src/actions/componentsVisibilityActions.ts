@@ -11,7 +11,11 @@ export type ComponentsVisibilityActions =
 
 export interface OpenBiographyComponentAction extends Action<string> {}
 export interface CloseBiographyComponentAction extends Action<string> {}
-export interface OpenMultimediaComponentAction extends Action<string> {}
+export interface OpenMultimediaComponentAction extends Action<string> {
+  payload?: {
+    date: string;
+  };
+}
 export interface CloseMultimediaComponentAction extends Action<string> {}
 export interface OpenSearchComponentAction extends Action<string> {}
 export interface CloseSearchComponentAction extends Action<string> {}
@@ -22,16 +26,21 @@ export function openBiographyComponent(): OpenBiographyComponentAction {
   };
 }
 
-export function closeBiographyComponent(): OpenBiographyComponentAction {
+export function closeBiographyComponent(): CloseBiographyComponentAction {
   return {
     type: constants.CLOSE_BIOGRAPHY_COMPONENT
   };
 }
 
-export function openMultimediaComponent(): OpenMultimediaComponentAction {
-  return {
+export function openMultimediaComponent(
+  prams: OpenMultimediaComponentAction["payload"] = undefined
+) {
+  const action: OpenMultimediaComponentAction = {
     type: constants.OPEN_MULTIMEDIA_COMPONENT
   };
+  if (prams) action.payload = prams;
+
+  return action;
 }
 
 export function closeMultimediaComponent(): CloseMultimediaComponentAction {
