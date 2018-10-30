@@ -1,5 +1,6 @@
 import findProfiles, { FindProfilesAction } from "./findProfiles";
 import getActiveProfile, { GetActiveProfileAction } from "./getActiveProfile";
+import timelineChanged, { TimelineChangedAction } from "./timelineChanged";
 import {
   closeBiographyComponent,
   CloseBiographyComponentAction,
@@ -21,6 +22,8 @@ export {
   FindProfilesAction,
   getActiveProfile,
   GetActiveProfileAction,
+  timelineChanged,
+  TimelineChangedAction,
   closeBiographyComponent,
   CloseBiographyComponentAction,
   closeMultimediaComponent,

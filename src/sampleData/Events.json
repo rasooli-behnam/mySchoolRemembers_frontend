@@ -1,0 +1,22 @@
+{
+  "data": [
+    {
+      "VeteranID": "189210",
+      "Name": "Sample event 1",
+      "Date": "1914-01-01",
+      "Coordinates": "-37.803941,145.033249"
+    },
+    {
+      "VeteranID": "189210",
+      "Name": "Sample event 2",
+      "Date": "1914-05-15",
+      "Coordinates": "19.590961,37.188198"
+    },
+    {
+      "VeteranID": "189210",
+      "Name": "Sample event 3",
+      "Date": "1915-08-21",
+      "Coordinates": "-33.866244,151.209123"
+    }
+  ]
+}

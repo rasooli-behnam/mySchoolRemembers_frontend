@@ -3,6 +3,7 @@ import Biography from "../Biography";
 import Buttons from "./Buttons";
 import Multimedia from "../Multimedia";
 import Search from "../Search";
+import Timeline from "../Timeline";
 import { CssBaseline } from "@material-ui/core";
 
 export default class App extends React.Component {
@@ -10,6 +11,7 @@ export default class App extends React.Component {
     return (
       <React.Fragment>
         <CssBaseline />
+        <Timeline />
         <Buttons />
         <Biography />
         <Multimedia />
