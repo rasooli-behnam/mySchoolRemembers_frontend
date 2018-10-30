@@ -11,12 +11,15 @@ const styles = createStyles({
   },
   textField: {
     width: 200,
-    paddingLeft: 10,
-    marginRight: 30
+    marginRight: 20,
+    marginLeft: 10
   },
   searchButton: {
     backgroundColor: "#fcf79c",
-    fontWeight: "bold"
+    fontWeight: "bold",
+    height: 54,
+    position: "absolute",
+    bottom: 10
   },
   menu: {
     width: 200

@@ -61,6 +61,7 @@ export default class SearchBox extends React.Component<Props, State> {
             label="Search field"
             type="search"
             className={classes.textField}
+            autoFocus={true}
             value={this.state.searchTerm}
             onChange={this.handleSearchTermChange}
             margin="normal"
