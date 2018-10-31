@@ -9,7 +9,8 @@ const theComponentWithStyles = withStyles(styles)(theComponent);
 
 const mapDispatchToProps = (dispatch: Dispatch) => ({
   openBiographyComponent: () => dispatch(openBiographyComponent()),
-  openMultimediaComponent: () => dispatch(openMultimediaComponent()),
+  openMultimediaComponent: (prams: any = undefined) =>
+    dispatch(openMultimediaComponent(prams)),
   openSearchComponent: () => dispatch(openSearchComponent())
 });
 
