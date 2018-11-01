@@ -3,9 +3,11 @@ import * as events from "src/sampleData/Events.json";
 import * as externalResources from "src/sampleData/ExternalResources.json";
 import * as multimedias from "src/sampleData/Multimedias.json";
 import * as veteranBios from "src/sampleData/VeteranBios.json";
+import Event from "src/dataTypes/Events";
+import Multimedia from "src/dataTypes/Multimedia";
 import { AppState } from ".";
 import { GetActiveProfileAction } from "src/actions";
-import { reformatEventDate } from "src/utils";
+import { reformatDate } from "src/utils";
 const sortBy = require("lodash.sortby");
 
 export default function(prevState: AppState, action: GetActiveProfileAction) {
@@ -26,11 +28,19 @@ function getProfile(veteranID: string): AppState["activeProfile"] {
     events: sortBy(
       events.data.filter(e => e.VeteranID === veteranID),
       "Date"
-    ).map(reformatEventDate),
+    ).map((e: Event) => {
+      e.Date = reformatDate(e.Date);
+      return e;
+    }),
     externalResources: externalResources.data.filter(
       er => er.VeteranID === veteranID
     ),
-    multimedias: multimedias.data.filter(m => m.VeteranID === veteranID)
+    multimedias: multimedias.data
+      .filter(m => m.VeteranID === veteranID)
+      .map((m: Multimedia) => {
+        m.Date = reformatDate(m.Date);
+        return m;
+      })
   };
 
   return result;

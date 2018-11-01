@@ -6,7 +6,7 @@ export function parseCoordinates(coordinates: string): Coordinates {
   return { lat: parseFloat(coords[0]), lon: parseFloat(coords[1]) };
 }
 
-export function reformatEventDate(date: string) {
+export function reformatDate(date: string) {
   return new Date(date)
     .toJSON()
     .slice(0, 10)
