@@ -10,7 +10,7 @@ const theComponentWithStyles = withStyles(styles)(theComponent);
 
 const mapAppStateToProps = (appState: AppState) => ({
   dates: appState.activeProfile.events.map(e => e.Date),
-  isDisabled: appState.isTimelineDisabled
+  isDisabled: appState.timelineState.isDisabled
 });
 
 const mapDispatchToProps = (dispatch: Dispatch) => ({

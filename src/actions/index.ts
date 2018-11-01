@@ -16,6 +16,7 @@ import {
   openSearchComponent,
   OpenSearchComponentAction
   } from "./componentsVisibilityActions";
+import { mapActions, mapStartedToFly, mapStoppedFlying } from "./mapActions";
 
 export {
   findProfiles,
@@ -36,5 +37,8 @@ export {
   openMultimediaComponent,
   OpenMultimediaComponentAction,
   openSearchComponent,
-  OpenSearchComponentAction
+  OpenSearchComponentAction,
+  mapActions,
+  mapStartedToFly,
+  mapStoppedFlying
 };

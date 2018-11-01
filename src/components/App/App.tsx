@@ -1,6 +1,7 @@
 import * as React from "react";
 import Biography from "../Biography";
 import Buttons from "./Buttons";
+import Map from "../Map";
 import Multimedia from "../Multimedia";
 import Search from "../Search";
 import Timeline from "../Timeline";
@@ -11,6 +12,7 @@ export default class App extends React.Component {
     return (
       <React.Fragment>
         <CssBaseline />
+        <Map />
         <Timeline />
         <Buttons />
         <Biography />

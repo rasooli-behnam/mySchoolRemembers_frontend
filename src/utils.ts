@@ -1,16 +1,16 @@
+import Coordinates from "./dataTypes/Coordinates";
 import Event from "./dataTypes/Events";
 
-export function parseCoordinates(coordinates: string) {
+export function parseCoordinates(coordinates: string): Coordinates {
   const coords = coordinates.split(",");
   return { lat: parseFloat(coords[0]), lon: parseFloat(coords[1]) };
 }
 
-export function reformatEventDate(event: Event) {
-  event.Date = new Date(event.Date)
+export function reformatEventDate(date: string) {
+  return new Date(date)
     .toJSON()
     .slice(0, 10)
     .split("-")
     .reverse()
     .join("/");
-  return event;
 }
