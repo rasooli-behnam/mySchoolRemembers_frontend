@@ -24,8 +24,6 @@ export default function combineReducers(
   };
 }
 
-//My name is Behnam and I LOVE LOVE melons
-
 export interface AppState {
   activeProfile: {
     veteranBio: VeteranBio;

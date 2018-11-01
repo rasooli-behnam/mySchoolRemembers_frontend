@@ -19,10 +19,16 @@ export default class Multimedia extends React.Component<Props, State> {
     }));
   };
 
+  resetPhotoIndexIfLightboxClosed() {
+    if (!this.props.isOpen) this.state = { photoIndex: 0 };
+  }
+
   public render() {
     const { isOpen, closeComponent } = this.props;
-    const { photoIndex } = this.state;
+    let { photoIndex } = this.state;
     const images = this.mapMultimediasToUsableItems();
+
+    if (photoIndex > images.length) photoIndex = 0;
 
     return (
       <Lightbox
