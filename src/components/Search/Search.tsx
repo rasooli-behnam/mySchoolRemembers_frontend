@@ -3,14 +3,13 @@ import ReactMapGL, { Marker } from "react-map-gl";
 import SearchBox from "./SearchBox";
 import { Button, Modal } from "@material-ui/core";
 import { containerMargin } from "./styles";
-import { parseCoordinates } from "src/utils";
 import { Props, State } from "./types";
 
 export default class Multimedia extends React.Component<Props, State> {
   constructor(props: Props) {
     super(props);
 
-    const initialCoordinates = parseCoordinates(this.props.initialCoordinates);
+    const initialCoordinates = this.props.initialCoordinates;
 
     this.state = {
       viewport: {
@@ -40,7 +39,7 @@ export default class Multimedia extends React.Component<Props, State> {
             }}
           >
             {profiles.map(vb => {
-              const coords = parseCoordinates(vb.coords);
+              const coords = vb.coords;
               return (
                 <Marker latitude={coords.lat} longitude={coords.lon}>
                   <Button className={classes.markerButton} variant="contained">

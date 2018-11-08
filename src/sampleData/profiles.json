@@ -3,32 +3,32 @@
     {
       "reg_no": "1553",
       "name": "James Martin",
-      "coords": "-37.817581,145.033184"
+      "coords": { "lat": -37.817581, "lon": 145.033184 }
     },
     {
       "reg_no": "1554",
       "name": "David Smith",
-      "coords": "-37.817096,145.025216"
+      "coords": { "lat": -37.817096, "lon": 145.025216 }
     },
     {
       "reg_no": "1555",
       "name": "Alex Rayan",
-      "coords": "-37.819578,145.026561"
+      "coords": { "lat": -37.819578, "lon": 145.026561 }
     },
     {
       "reg_no": "1556",
       "name": "Mike Cooper",
-      "coords": "-37.837295,145.050760"
+      "coords": { "lat": -37.837295, "lon": 145.05076 }
     },
     {
       "reg_no": "1556",
       "name": "Kristian Smart",
-      "coords": "-37.833093,145.047412"
+      "coords": { "lat": -37.833093, "lon": 145.047412 }
     },
     {
       "reg_no": "1556",
       "name": "Billy Jones",
-      "coords": "-37.831483,145.052476"
+      "coords": { "lat": -37.831483, "lon": 145.052476 }
     }
   ]
 }

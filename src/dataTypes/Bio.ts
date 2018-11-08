@@ -9,7 +9,7 @@ export default interface Bio {
   city: string;
   state: string;
   postcode: string;
-  coords: string;
+  coords: { lat: number; lon: number };
   age_at_embark: string;
   height: string;
   weight: string;

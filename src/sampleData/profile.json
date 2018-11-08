@@ -10,7 +10,7 @@
     "city": "Hawthorn",
     "state": "Victoria",
     "postcode": "3122",
-    "coords": "-37.817581,145.033184",
+    "coords": { "lat": -37.817581, "lon": 145.033184 },
     "age_at_embark": "18",
     "height": "5'6\"",
     "weight": "133 lbs",
@@ -27,17 +27,17 @@
     {
       "name": "Sample event 1",
       "date": "1914-01-01",
-      "coords": "-37.803941,145.033249"
+      "coords": { "lat": -37.803941, "lon": 145.033249 }
     },
     {
       "name": "Sample event 2",
       "date": "1914-05-15",
-      "coords": "19.590961,37.188198"
+      "coords": { "lat": 19.590961, "lon": 37.188198 }
     },
     {
       "name": "Sample event 3",
       "date": "1915-08-21",
-      "coords": "-33.866244,151.209123"
+      "coords": { "lat": -33.866244, "lon": 151.209123 }
     }
   ],
   "external_resources": [

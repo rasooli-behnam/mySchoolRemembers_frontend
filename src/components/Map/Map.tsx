@@ -3,14 +3,13 @@ import Coordinates from "src/dataTypes/Coordinates";
 import Marker from "./Marker";
 import ReactMapGL, { FlyToInterpolator, HTMLOverlay, HTMLRedrawOptions } from "react-map-gl";
 import { easeCubic } from "d3-ease";
-import { parseCoordinates } from "src/utils";
 import { Props, State } from "./types";
 
 export default class Map extends React.Component<Props, State> {
   constructor(props: Props) {
     super(props);
 
-    const initialCoordinates = parseCoordinates(props.currentEvent.coords);
+    const initialCoordinates = props.currentEvent.coords;
 
     this.state = {
       viewport: {
@@ -61,7 +60,7 @@ export default class Map extends React.Component<Props, State> {
   };
 
   handleTimelineChange = () => {
-    const newCoordinates = parseCoordinates(this.props.currentEvent.coords);
+    const newCoordinates = this.props.currentEvent.coords;
     this.props.mapStartedToFly();
     this.flyToNewDestination(newCoordinates);
   };
