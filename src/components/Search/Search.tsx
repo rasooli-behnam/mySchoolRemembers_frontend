@@ -40,10 +40,19 @@ export default class Multimedia extends React.Component<Props, State> {
           >
             {profiles.map(vb => {
               const coords = vb.coords;
+              const name = vb.name.split(" ");
               return (
                 <Marker latitude={coords.lat} longitude={coords.lon}>
-                  <Button className={classes.markerButton} variant="contained">
-                    {`${vb.name} (${vb.reg_no})`}
+                  <Button
+                    className={classes.markerButton}
+                    variant="contained"
+                    size={"small"}
+                    disabled={!vb.available}
+                  >
+                    {name.reduce(
+                      (accumulator, currentValue) =>
+                        accumulator[0] + currentValue[0]
+                    )}
                   </Button>
                 </Marker>
               );

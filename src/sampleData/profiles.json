@@ -1,34 +1,2872 @@
 {
   "data": [
     {
+      "available": true,
       "reg_no": "1553",
       "name": "James Martin",
       "coords": { "lat": -37.817581, "lon": 145.033184 }
     },
     {
-      "reg_no": "1554",
-      "name": "David Smith",
-      "coords": { "lat": -37.817096, "lon": 145.025216 }
+      "available": false,
+      "reg_no": "3228",
+      "name": "ABASSIE, Alexander Thomas",
+      "coords": {
+        "lat": -37.814976,
+        "lon": 144.984434
+      }
     },
     {
-      "reg_no": "1555",
-      "name": "Alex Rayan",
-      "coords": { "lat": -37.819578, "lon": 145.026561 }
+      "available": false,
+      "reg_no": "3677",
+      "name": "ABRAHAM, William Ross",
+      "coords": {
+        "lat": -37.904053,
+        "lon": 145.035956
+      }
     },
     {
-      "reg_no": "1556",
-      "name": "Mike Cooper",
-      "coords": { "lat": -37.837295, "lon": 145.05076 }
+      "available": false,
+      "reg_no": "643",
+      "name": "AARONS, Gabriel",
+      "coords": {
+        "lat": -37.802288,
+        "lon": 144.904219
+      }
     },
     {
-      "reg_no": "1556",
-      "name": "Kristian Smart",
-      "coords": { "lat": -37.833093, "lon": 145.047412 }
+      "available": false,
+      "reg_no": "302",
+      "name": "ADAMS, William",
+      "coords": {
+        "lat": -37.832838,
+        "lon": 144.941521
+      }
     },
     {
-      "reg_no": "1556",
-      "name": "Billy Jones",
-      "coords": { "lat": -37.831483, "lon": 145.052476 }
+      "available": false,
+      "reg_no": "75",
+      "name": "ABERDEEN, Norman Edward",
+      "coords": {
+        "lat": -37.78848,
+        "lon": 144.975717
+      }
+    },
+    {
+      "available": false,
+      "reg_no": "3250",
+      "name": "ABBOTT, Alfred",
+      "coords": {
+        "lat": -37.897551,
+        "lon": 145.310454
+      }
+    },
+    {
+      "available": false,
+      "reg_no": "10229",
+      "name": "ABERCROMBY, Harold Ralph",
+      "coords": {
+        "lat": -37.851626,
+        "lon": 145.006917
+      }
+    },
+    {
+      "available": false,
+      "reg_no": "61341",
+      "name": "ABERCROMBY, John Ruthven",
+      "coords": {
+        "lat": -37.86251,
+        "lon": 144.991174
+      }
+    },
+    {
+      "available": false,
+      "reg_no": "2450",
+      "name": "ADAIR, Alexander Alphonsus",
+      "coords": {
+        "lat": -37.551505,
+        "lon": 143.847641
+      }
+    },
+    {
+      "available": false,
+      "reg_no": "2570",
+      "name": "ADAMS, William Hugh Henry",
+      "coords": {
+        "lat": -37.781249,
+        "lon": 145.00882
+      }
+    },
+    {
+      "available": false,
+      "reg_no": "21915",
+      "name": "ADAMS, Thomas William",
+      "coords": {
+        "lat": -37.914,
+        "lon": 145.011385
+      }
+    },
+    {
+      "available": false,
+      "reg_no": "2432",
+      "name": "ABBOTT, Herbert",
+      "coords": {
+        "lat": -38.124809,
+        "lon": 144.356783
+      }
+    },
+    {
+      "available": false,
+      "reg_no": "8046",
+      "name": "ADDISON, Berkley May",
+      "coords": {
+        "lat": -37.815852,
+        "lon": 145.038744
+      }
+    },
+    {
+      "available": false,
+      "reg_no": "31363",
+      "name": "ADAMS, William Robert",
+      "coords": {
+        "lat": -37.830341,
+        "lon": 144.960304
+      }
+    },
+    {
+      "available": false,
+      "reg_no": "14",
+      "name": "ABDY, Charles Ernest",
+      "coords": {
+        "lat": -37.85935,
+        "lon": 144.973178
+      }
+    },
+    {
+      "available": false,
+      "reg_no": "4426",
+      "name": "ADLARD, Stanley Shaxton",
+      "coords": {
+        "lat": -37.834565,
+        "lon": 144.935144
+      }
+    },
+    {
+      "available": false,
+      "reg_no": "2271",
+      "name": "ABBOTT, Henry",
+      "coords": {
+        "lat": -37.857488,
+        "lon": 144.981102
+      }
+    },
+    {
+      "available": false,
+      "reg_no": "548",
+      "name": "ABBEY, James Wesley",
+      "coords": {
+        "lat": -37.8011,
+        "lon": 144.979
+      }
+    },
+    {
+      "available": false,
+      "reg_no": "20057",
+      "name": "ADDY, Charles Gladwin",
+      "coords": {
+        "lat": -37.884,
+        "lon": 144.986
+      }
+    },
+    {
+      "available": false,
+      "reg_no": "7107",
+      "name": "AINSWORTH, Thomas Henry",
+      "coords": {
+        "lat": -37.834759,
+        "lon": 144.951978
+      }
+    },
+    {
+      "available": false,
+      "reg_no": "6274",
+      "name": "ABBOTT, Walter",
+      "coords": {
+        "lat": -37.838002,
+        "lon": 144.936823
+      }
+    },
+    {
+      "available": false,
+      "reg_no": "2598",
+      "name": "ABERLINE, Thomas Joseph Howard",
+      "coords": {
+        "lat": -37.823872,
+        "lon": 145.079942
+      }
+    },
+    {
+      "available": false,
+      "reg_no": "6460",
+      "name": "ABBEY, William Benjamin",
+      "coords": {
+        "lat": -37.8011,
+        "lon": 144.979
+      }
+    },
+    {
+      "available": false,
+      "reg_no": "5470",
+      "name": "ABBOTT, William Henry",
+      "coords": {
+        "lat": -37.899,
+        "lon": 145.072
+      }
+    },
+    {
+      "available": false,
+      "reg_no": "74",
+      "name": "ABBEY, Frederick",
+      "coords": {
+        "lat": -37.8011,
+        "lon": 144.979
+      }
+    },
+    {
+      "available": false,
+      "reg_no": "646",
+      "name": "ABRAMAN, Leo",
+      "coords": {
+        "lat": -37.812532,
+        "lon": 144.985958
+      }
+    },
+    {
+      "available": false,
+      "reg_no": "55557",
+      "name": "ABBOTT, Ronald",
+      "coords": {
+        "lat": -37.860151,
+        "lon": 145.007392
+      }
+    },
+    {
+      "available": false,
+      "reg_no": "10207",
+      "name": "ADAM, Grenville John",
+      "coords": {
+        "lat": -37.758522,
+        "lon": 144.911436
+      }
+    },
+    {
+      "available": false,
+      "reg_no": "216",
+      "name": "ADAMS, Francis Edgar",
+      "coords": {
+        "lat": -37.840558,
+        "lon": 144.959976
+      }
+    },
+    {
+      "available": false,
+      "reg_no": "7842",
+      "name": "ADAMS, Henry Albert ",
+      "coords": {
+        "lat": -36.619223,
+        "lon": 144.591875
+      }
+    },
+    {
+      "available": false,
+      "reg_no": "11634",
+      "name": "ADAIR, Robert Warnock",
+      "coords": {
+        "lat": -37.82961,
+        "lon": 145.043914
+      }
+    },
+    {
+      "available": true,
+      "reg_no": "1553",
+      "name": "James MARTIN",
+      "coords": {
+        "lat": -37.817581,
+        "lon": 145.033184
+      }
+    },
+    {
+      "available": false,
+      "reg_no": "60873",
+      "name": "ADAMS, Charles Augustus",
+      "coords": {
+        "lat": -37.801079,
+        "lon": 144.98938
+      }
+    },
+    {
+      "available": false,
+      "reg_no": "61109",
+      "name": "ADAM, John William",
+      "coords": {
+        "lat": -37.759491,
+        "lon": 144.962078
+      }
+    },
+    {
+      "available": false,
+      "reg_no": "4496",
+      "name": "ABERNETHY, William",
+      "coords": {
+        "lat": -37.811741,
+        "lon": 144.964822
+      }
+    },
+    {
+      "available": false,
+      "reg_no": "6465",
+      "name": "ABBOTT, George",
+      "coords": {
+        "lat": -37.786699,
+        "lon": 144.934456
+      }
+    },
+    {
+      "available": false,
+      "reg_no": "515",
+      "name": "ADAMS, Albert Ward *",
+      "coords": {
+        "lat": -36.619223,
+        "lon": 144.591875
+      }
+    },
+    {
+      "available": false,
+      "reg_no": "12623",
+      "name": "ADAMS, Charles Edward",
+      "coords": {
+        "lat": -36.619223,
+        "lon": 144.591875
+      }
+    },
+    {
+      "available": false,
+      "reg_no": "251",
+      "name": "ADAMS, George Thomas Bailey",
+      "coords": {
+        "lat": -37.840301,
+        "lon": 144.997783
+      }
+    },
+    {
+      "available": false,
+      "reg_no": "398",
+      "name": "ADAMS, Edward",
+      "coords": {
+        "lat": -37.818143,
+        "lon": 145.02588
+      }
+    },
+    {
+      "available": false,
+      "reg_no": "16101",
+      "name": "ADAMS, Claude Percy George",
+      "coords": {
+        "lat": -37.82197,
+        "lon": 145.024133
+      }
+    },
+    {
+      "available": false,
+      "reg_no": "60872",
+      "name": "ABSON, Phillip",
+      "coords": {
+        "lat": -38.180559,
+        "lon": 144.328397
+      }
+    },
+    {
+      "available": false,
+      "reg_no": "8733",
+      "name": "ADAMS, George Hill",
+      "coords": {
+        "lat": -37.864801,
+        "lon": 144.992023
+      }
+    },
+    {
+      "available": false,
+      "reg_no": "4651",
+      "name": "ACKERLY, William Arthur Harry",
+      "coords": {
+        "lat": -37.751579,
+        "lon": 144.952413
+      }
+    },
+    {
+      "available": false,
+      "reg_no": "3",
+      "name": "ADAMS, James",
+      "coords": {
+        "lat": -37.846373,
+        "lon": 144.961646
+      }
+    },
+    {
+      "available": false,
+      "reg_no": "6585",
+      "name": "ABBOT, Harold Alfred",
+      "coords": {
+        "lat": -37.833899,
+        "lon": 144.987249
+      }
+    },
+    {
+      "available": false,
+      "reg_no": "5028",
+      "name": "ADAMS, Frank Roy",
+      "coords": {
+        "lat": -37.791648,
+        "lon": 144.930528
+      }
+    },
+    {
+      "available": false,
+      "reg_no": "5026",
+      "name": "ABBOTT, Gilbert Alexander",
+      "coords": {
+        "lat": -37.852066,
+        "lon": 144.994923
+      }
+    },
+    {
+      "available": false,
+      "reg_no": "31",
+      "name": "ADAMS, Thomas Norman",
+      "coords": {
+        "lat": -37.818143,
+        "lon": 145.02588
+      }
+    },
+    {
+      "available": false,
+      "reg_no": "1667",
+      "name": "ADAMS, Arthur",
+      "coords": {
+        "lat": -37.844958,
+        "lon": 144.996274
+      }
+    },
+    {
+      "available": false,
+      "reg_no": "1480",
+      "name": "ADAMS, Ernest Amor",
+      "coords": {
+        "lat": -37.871748,
+        "lon": 144.977223
+      }
+    },
+    {
+      "available": false,
+      "reg_no": "2461",
+      "name": "ABBOTT, James Lawrence",
+      "coords": {
+        "lat": -37.901465,
+        "lon": 144.995462
+      }
+    },
+    {
+      "available": false,
+      "reg_no": "15345",
+      "name": "ABBOTT, Edwin",
+      "coords": {
+        "lat": -36.619223,
+        "lon": 144.591875
+      }
+    },
+    {
+      "available": false,
+      "reg_no": "152",
+      "name": "ADAMS, William",
+      "coords": {
+        "lat": -37.798243,
+        "lon": 144.907332
+      }
+    },
+    {
+      "available": false,
+      "reg_no": "4971",
+      "name": "ADAMS, James",
+      "coords": {
+        "lat": -37.829406,
+        "lon": 144.992285
+      }
+    },
+    {
+      "available": false,
+      "reg_no": "2096",
+      "name": "ACTON, William Francis",
+      "coords": {
+        "lat": -36.353865,
+        "lon": 145.372077
+      }
+    },
+    {
+      "available": false,
+      "reg_no": "2838",
+      "name": "ABELL, Samuel",
+      "coords": {
+        "lat": -37.8011,
+        "lon": 144.979
+      }
+    },
+    {
+      "available": false,
+      "reg_no": "3227",
+      "name": "ADAMS, Samuel Richard",
+      "coords": {
+        "lat": -37.840194,
+        "lon": 144.954611
+      }
+    },
+    {
+      "available": false,
+      "reg_no": "5302",
+      "name": "ABERCROMBIE, Percy John",
+      "coords": {
+        "lat": -37.824604,
+        "lon": 145.082511
+      }
+    },
+    {
+      "available": false,
+      "reg_no": "4126",
+      "name": "ADAMS, Norman William",
+      "coords": {
+        "lat": -37.826103,
+        "lon": 145.011569
+      }
+    },
+    {
+      "available": false,
+      "reg_no": "35057",
+      "name": "ADAMS, George Henry",
+      "coords": {
+        "lat": -38.154214,
+        "lon": 144.349247
+      }
+    },
+    {
+      "available": false,
+      "reg_no": "3542",
+      "name": "ADAMS, Henry Joseph",
+      "coords": {
+        "lat": -37.805619,
+        "lon": 144.942444
+      }
+    },
+    {
+      "available": false,
+      "reg_no": "6510",
+      "name": "ADAMS, Ivan Mase",
+      "coords": {
+        "lat": -37.829917,
+        "lon": 145.058323
+      }
+    },
+    {
+      "available": false,
+      "reg_no": "6211",
+      "name": "ADAMS, Percy",
+      "coords": {
+        "lat": -37.8011,
+        "lon": 144.979
+      }
+    },
+    {
+      "available": false,
+      "reg_no": "5471",
+      "name": "ADAMS, Richard Charles",
+      "coords": {
+        "lat": -37.856004,
+        "lon": 145.054334
+      }
+    },
+    {
+      "available": false,
+      "reg_no": "34983",
+      "name": "ADAMS, Lance Lionel",
+      "coords": {
+        "lat": -37.829917,
+        "lon": 145.058323
+      }
+    },
+    {
+      "available": false,
+      "reg_no": "10311",
+      "name": "ABRAHAMS, John James Albert",
+      "coords": {
+        "lat": -37.7667,
+        "lon": 144.963
+      }
+    },
+    {
+      "available": false,
+      "reg_no": "3692",
+      "name": "ADAMS, Percy Claude",
+      "coords": {
+        "lat": -37.850791,
+        "lon": 144.99093
+      }
+    },
+    {
+      "available": false,
+      "reg_no": "158",
+      "name": "ABBEY, Harold Claude",
+      "coords": {
+        "lat": -38.672233,
+        "lon": 146.690305
+      }
+    },
+    {
+      "available": false,
+      "reg_no": "6949",
+      "name": "ADAMS, William",
+      "coords": {
+        "lat": -37.797121,
+        "lon": 144.894973
+      }
+    },
+    {
+      "available": false,
+      "reg_no": "2253",
+      "name": "ADAMS, Stephen Herbert",
+      "coords": {
+        "lat": -37.803404,
+        "lon": 144.988883
+      }
+    },
+    {
+      "available": false,
+      "reg_no": "5326",
+      "name": "ADAMSON, Charles Paddington",
+      "coords": {
+        "lat": -37.796498,
+        "lon": 144.996668
+      }
+    },
+    {
+      "available": false,
+      "reg_no": "294",
+      "name": "ADAMS, Leonard Anthony",
+      "coords": {
+        "lat": -37.755523,
+        "lon": 144.929056
+      }
+    },
+    {
+      "available": false,
+      "reg_no": "3226",
+      "name": "ADAMS, John",
+      "coords": {
+        "lat": -37.557422,
+        "lon": 143.848075
+      }
+    },
+    {
+      "available": false,
+      "reg_no": "1655",
+      "name": "ABBEY, Albert Edward",
+      "coords": {
+        "lat": -37.8011,
+        "lon": 144.979
+      }
+    },
+    {
+      "available": false,
+      "reg_no": "382",
+      "name": "ADAMS, Hartley",
+      "coords": {
+        "lat": -37.84,
+        "lon": 144.989
+      }
+    },
+    {
+      "available": false,
+      "reg_no": "2274",
+      "name": "ADAMS, James",
+      "coords": {
+        "lat": -37.780739,
+        "lon": 144.971857
+      }
+    },
+    {
+      "available": false,
+      "reg_no": "2451",
+      "name": "ADAMS, Thomas Michael",
+      "coords": {
+        "lat": -37.801368,
+        "lon": 145.000591
+      }
+    },
+    {
+      "available": false,
+      "reg_no": "3141",
+      "name": "ADAMS, William Elishar",
+      "coords": {
+        "lat": -37.801843,
+        "lon": 144.947223
+      }
+    },
+    {
+      "available": false,
+      "reg_no": "6215",
+      "name": "ADAMS, Archie Pearson",
+      "coords": {
+        "lat": -37.852469,
+        "lon": 144.997882
+      }
+    },
+    {
+      "available": false,
+      "reg_no": "4351",
+      "name": "ADAMS, Rupert William Edwin",
+      "coords": {
+        "lat": -37.740306,
+        "lon": 144.962834
+      }
+    },
+    {
+      "available": false,
+      "reg_no": "69228",
+      "name": "ADAMS, James",
+      "coords": {
+        "lat": -37.81494,
+        "lon": 145.037507
+      }
+    },
+    {
+      "available": false,
+      "reg_no": "1285",
+      "name": "ADAMS, William James",
+      "coords": {
+        "lat": -37.851594,
+        "lon": 144.997902
+      }
+    },
+    {
+      "available": false,
+      "reg_no": "3996",
+      "name": "ACKERLY, Harry Philip",
+      "coords": {
+        "lat": -37.763188,
+        "lon": 144.965204
+      }
+    },
+    {
+      "available": false,
+      "reg_no": "1903",
+      "name": "ADAMS, Morgan",
+      "coords": {
+        "lat": -37.77422,
+        "lon": 144.906995
+      }
+    },
+    {
+      "available": false,
+      "reg_no": "4051",
+      "name": "ADAMS, Albert John",
+      "coords": {
+        "lat": -37.852,
+        "lon": 144.998
+      }
+    },
+    {
+      "available": false,
+      "reg_no": "1302",
+      "name": "ADAMS, James",
+      "coords": {
+        "lat": -37.828515,
+        "lon": 144.960903
+      }
+    },
+    {
+      "available": false,
+      "reg_no": "5966",
+      "name": "ADCOCK, Thomas Henry",
+      "coords": {
+        "lat": -37.8001,
+        "lon": 144.967
+      }
+    },
+    {
+      "available": false,
+      "reg_no": "983",
+      "name": "ADAMS, Frederick",
+      "coords": {
+        "lat": -37.855031,
+        "lon": 144.99579
+      }
+    },
+    {
+      "available": false,
+      "reg_no": "769",
+      "name": "ADAMS, Frederick",
+      "coords": {
+        "lat": -37.810522,
+        "lon": 144.949604
+      }
+    },
+    {
+      "available": false,
+      "reg_no": "359",
+      "name": "ADAMS, Willie",
+      "coords": {
+        "lat": -37.841638,
+        "lon": 144.935288
+      }
+    },
+    {
+      "available": false,
+      "reg_no": "1330",
+      "name": "ACREMAN, Alfred",
+      "coords": {
+        "lat": -37.804013,
+        "lon": 144.886077
+      }
+    },
+    {
+      "available": false,
+      "reg_no": "845",
+      "name": "ADAMS, Jack Adrian Finlayson",
+      "coords": {
+        "lat": -36.619223,
+        "lon": 144.591875
+      }
+    },
+    {
+      "available": false,
+      "reg_no": "1885",
+      "name": "ADDISON, Arthur",
+      "coords": {
+        "lat": -37.838262,
+        "lon": 144.952847
+      }
+    },
+    {
+      "available": false,
+      "reg_no": "7604",
+      "name": "ADAMSON, Percy Edwin",
+      "coords": {
+        "lat": -37.874549,
+        "lon": 144.987879
+      }
+    },
+    {
+      "available": false,
+      "reg_no": "35",
+      "name": "ADDISON, George",
+      "coords": {
+        "lat": -36.619223,
+        "lon": 144.591875
+      }
+    },
+    {
+      "available": false,
+      "reg_no": "22781",
+      "name": "ADCOCK, John Thomas",
+      "coords": {
+        "lat": -33.8783,
+        "lon": 151.2192
+      }
+    },
+    {
+      "available": false,
+      "reg_no": "31614",
+      "name": "ADAMSON, Melville Salisbury",
+      "coords": {
+        "lat": -37.868699,
+        "lon": 144.983391
+      }
+    },
+    {
+      "available": false,
+      "reg_no": "2816",
+      "name": "ADAMSON, Donald Francis",
+      "coords": {
+        "lat": -37.866014,
+        "lon": 144.981612
+      }
+    },
+    {
+      "available": false,
+      "reg_no": "6953",
+      "name": "ADWIN, William Joseph",
+      "coords": {
+        "lat": -37.799312,
+        "lon": 144.976205
+      }
+    },
+    {
+      "available": false,
+      "reg_no": "510",
+      "name": "ADAMS, John Knox",
+      "coords": {
+        "lat": -37.753787,
+        "lon": 144.929555
+      }
+    },
+    {
+      "available": false,
+      "reg_no": "55094",
+      "name": "ADDICOAT, William Stanley Henry",
+      "coords": {
+        "lat": -37.836204,
+        "lon": 144.966187
+      }
+    },
+    {
+      "available": false,
+      "reg_no": "5466",
+      "name": "ADLINGTON, John Cork Allen",
+      "coords": {
+        "lat": -37.796889,
+        "lon": 144.986244
+      }
+    },
+    {
+      "available": false,
+      "reg_no": "2073",
+      "name": "ADDISON, Edward *",
+      "coords": {
+        "lat": -37.842544,
+        "lon": 144.955467
+      }
+    },
+    {
+      "available": false,
+      "reg_no": "201",
+      "name": "ADDISON, Donald McGaw",
+      "coords": {
+        "lat": -37.847501,
+        "lon": 144.961262
+      }
+    },
+    {
+      "available": false,
+      "reg_no": "61108",
+      "name": "ADDISON, George Arthur",
+      "coords": {
+        "lat": -37.847501,
+        "lon": 144.961262
+      }
+    },
+    {
+      "available": false,
+      "reg_no": "684",
+      "name": "ADAMS, William Thomas",
+      "coords": {
+        "lat": -37.796769,
+        "lon": 144.897436
+      }
+    },
+    {
+      "available": false,
+      "reg_no": "22395",
+      "name": "ADDY, George Robson",
+      "coords": {
+        "lat": -37.818458,
+        "lon": 144.996528
+      }
+    },
+    {
+      "available": false,
+      "reg_no": "7",
+      "name": "ADDISON, Herbert Charles",
+      "coords": {
+        "lat": -37.833565,
+        "lon": 144.940319
+      }
+    },
+    {
+      "available": false,
+      "reg_no": "2",
+      "name": "ADAMS, Walter Thomas",
+      "coords": {
+        "lat": -37.856282,
+        "lon": 145.004575
+      }
+    },
+    {
+      "available": false,
+      "reg_no": "5307",
+      "name": "ADAMSON, Arthur Thomas",
+      "coords": {
+        "lat": -37.742128,
+        "lon": 144.864502
+      }
+    },
+    {
+      "available": false,
+      "reg_no": "5291",
+      "name": "ADOLFSON, Adolf Sven",
+      "coords": {
+        "lat": -37.806481,
+        "lon": 144.945711
+      }
+    },
+    {
+      "available": false,
+      "reg_no": "3453",
+      "name": "ADAMS, John",
+      "coords": {
+        "lat": -37.801888,
+        "lon": 144.946226
+      }
+    },
+    {
+      "available": false,
+      "reg_no": "308",
+      "name": "AHEARN, Walter Richard",
+      "coords": {
+        "lat": -37.791134,
+        "lon": 144.981755
+      }
+    },
+    {
+      "available": false,
+      "reg_no": "3756",
+      "name": "AHEARN, Mihil Thomas",
+      "coords": {
+        "lat": -37.775891,
+        "lon": 144.91052
+      }
+    },
+    {
+      "available": false,
+      "reg_no": "3676",
+      "name": "AIKINS, James Shaw",
+      "coords": {
+        "lat": -37.804376,
+        "lon": 144.891984
+      }
+    },
+    {
+      "available": false,
+      "reg_no": "32",
+      "name": "AGAR, Norman William",
+      "coords": {
+        "lat": -37.822473,
+        "lon": 144.989422
+      }
+    },
+    {
+      "available": false,
+      "reg_no": "61110",
+      "name": "AHERN, John Francis",
+      "coords": {
+        "lat": -37.76488,
+        "lon": 144.914369
+      }
+    },
+    {
+      "available": false,
+      "reg_no": "5327",
+      "name": "AHERN, Stephen Joseph",
+      "coords": {
+        "lat": -37.909174,
+        "lon": 145.004193
+      }
+    },
+    {
+      "available": false,
+      "reg_no": "5032",
+      "name": "AHERN, William Charles",
+      "coords": {
+        "lat": -37.909174,
+        "lon": 145.004193
+      }
+    },
+    {
+      "available": false,
+      "reg_no": "145",
+      "name": "ADENEY, Theodore William",
+      "coords": {
+        "lat": -37.857777,
+        "lon": 144.98811
+      }
+    },
+    {
+      "available": false,
+      "reg_no": "2068",
+      "name": "AGAR, William",
+      "coords": {
+        "lat": -37.799779,
+        "lon": 144.889912
+      }
+    },
+    {
+      "available": false,
+      "reg_no": "1171",
+      "name": "AHEARN, Daniel Joseph",
+      "coords": {
+        "lat": -36.619223,
+        "lon": 144.591875
+      }
+    },
+    {
+      "available": false,
+      "reg_no": "4128",
+      "name": "AGER, Thomas William",
+      "coords": {
+        "lat": -37.834941,
+        "lon": 144.954625
+      }
+    },
+    {
+      "available": false,
+      "reg_no": "1901",
+      "name": "AINSWORTH, George",
+      "coords": {
+        "lat": -37.835,
+        "lon": 144.96
+      }
+    },
+    {
+      "available": false,
+      "reg_no": "1481",
+      "name": "AHERN, Maurice",
+      "coords": {
+        "lat": -37.792646,
+        "lon": 144.944533
+      }
+    },
+    {
+      "available": false,
+      "reg_no": "3508",
+      "name": "AILES, James",
+      "coords": {
+        "lat": -37.867188,
+        "lon": 144.907144
+      }
+    },
+    {
+      "available": false,
+      "reg_no": "7197",
+      "name": "AINSLIE, Brodie",
+      "coords": {
+        "lat": -37.864,
+        "lon": 144.982
+      }
+    },
+    {
+      "available": false,
+      "reg_no": "11635",
+      "name": "AINSLIE, James",
+      "coords": {
+        "lat": -37.859247,
+        "lon": 144.980958
+      }
+    },
+    {
+      "available": false,
+      "reg_no": "3202",
+      "name": "AHERN, Gerald",
+      "coords": {
+        "lat": -37.78657,
+        "lon": 144.993121
+      }
+    },
+    {
+      "available": false,
+      "reg_no": "305",
+      "name": "AINLEY, Alfred",
+      "coords": {
+        "lat": -37.788651,
+        "lon": 144.990614
+      }
+    },
+    {
+      "available": false,
+      "reg_no": "27533",
+      "name": "AINSLIE, George Mills",
+      "coords": {
+        "lat": -37.768431,
+        "lon": 144.913362
+      }
+    },
+    {
+      "available": false,
+      "reg_no": "132",
+      "name": "AINSLIE, Alban Alfred",
+      "coords": {
+        "lat": -37.811993,
+        "lon": 144.965206
+      }
+    },
+    {
+      "available": false,
+      "reg_no": "6306",
+      "name": "AITKEN, Eric Lawson",
+      "coords": {
+        "lat": -37.84548,
+        "lon": 144.960079
+      }
+    },
+    {
+      "available": false,
+      "reg_no": "1836",
+      "name": "AHERN, Thomas William",
+      "coords": {
+        "lat": -37.853342,
+        "lon": 144.997539
+      }
+    },
+    {
+      "available": false,
+      "reg_no": "4630",
+      "name": "AIRD, James Thomas",
+      "coords": {
+        "lat": -37.843733,
+        "lon": 144.952998
+      }
+    },
+    {
+      "available": false,
+      "reg_no": "5037",
+      "name": "AITKEN, Edward William",
+      "coords": {
+        "lat": -37.7722,
+        "lon": 144.999
+      }
+    },
+    {
+      "available": false,
+      "reg_no": "6950",
+      "name": "AISTON, Percy Alfred",
+      "coords": {
+        "lat": -37.798592,
+        "lon": 144.903143
+      }
+    },
+    {
+      "available": false,
+      "reg_no": "399",
+      "name": "AITCHISON, Angus Campbell",
+      "coords": {
+        "lat": 6.938039,
+        "lon": -73.273945
+      }
+    },
+    {
+      "available": false,
+      "reg_no": "31388",
+      "name": "ADDIS, Henry Percy",
+      "coords": {
+        "lat": -37.767067,
+        "lon": 144.961067
+      }
+    },
+    {
+      "available": false,
+      "reg_no": "1113",
+      "name": "AITKEN, Colin Robert",
+      "coords": {
+        "lat": -37.796128,
+        "lon": 144.929924
+      }
+    },
+    {
+      "available": false,
+      "reg_no": "1009",
+      "name": "AITKEN, Lyal",
+      "coords": {
+        "lat": -37.815061,
+        "lon": 144.999811
+      }
+    },
+    {
+      "available": false,
+      "reg_no": "2329",
+      "name": "AITKEN, Glen Hartley",
+      "coords": {
+        "lat": -36.758581,
+        "lon": 144.263573
+      }
+    },
+    {
+      "available": false,
+      "reg_no": "1305",
+      "name": "AINSWORTH, William Edward",
+      "coords": {
+        "lat": -37.836445,
+        "lon": 144.94942
+      }
+    },
+    {
+      "available": false,
+      "reg_no": "1611",
+      "name": "AITKEN, John",
+      "coords": {
+        "lat": -37.765518,
+        "lon": 144.994178
+      }
+    },
+    {
+      "available": false,
+      "reg_no": "26765",
+      "name": "AIRD, Alexander",
+      "coords": {
+        "lat": -37.762169,
+        "lon": 144.957671
+      }
+    },
+    {
+      "available": false,
+      "reg_no": "51531",
+      "name": "AITCHISON, Harry",
+      "coords": {
+        "lat": -37.883514,
+        "lon": 145.010889
+      }
+    },
+    {
+      "available": false,
+      "reg_no": "1612",
+      "name": "AITKEN, Donald Kitson",
+      "coords": {
+        "lat": -37.766546,
+        "lon": 144.997908
+      }
+    },
+    {
+      "available": false,
+      "reg_no": "575",
+      "name": "AITKEN, George Fawcett",
+      "coords": {
+        "lat": -37.796128,
+        "lon": 144.929924
+      }
+    },
+    {
+      "available": false,
+      "reg_no": "2554",
+      "name": "ADDISON, Harold George",
+      "coords": {
+        "lat": -37.815852,
+        "lon": 145.038744
+      }
+    },
+    {
+      "available": false,
+      "reg_no": "8",
+      "name": "ADCOCK, Bertie Claude",
+      "coords": {
+        "lat": -37.80515,
+        "lon": 144.969061
+      }
+    },
+    {
+      "available": false,
+      "reg_no": "5051",
+      "name": "AIRD, John Ross",
+      "coords": {
+        "lat": -36.619223,
+        "lon": 144.591875
+      }
+    },
+    {
+      "available": false,
+      "reg_no": "2326",
+      "name": "AHERN, Maurice",
+      "coords": {
+        "lat": -37.7966,
+        "lon": 144.945037
+      }
+    },
+    {
+      "available": false,
+      "reg_no": "5650",
+      "name": "AILES, Daniel",
+      "coords": {
+        "lat": -37.85276,
+        "lon": 144.897551
+      }
+    },
+    {
+      "available": false,
+      "reg_no": "38941",
+      "name": "AIKINS, George Ochiltree",
+      "coords": {
+        "lat": -37.84018,
+        "lon": 144.956503
+      }
+    },
+    {
+      "available": false,
+      "reg_no": "7116",
+      "name": "AIRD, Alexander Robert",
+      "coords": {
+        "lat": -37.796122,
+        "lon": 144.979359
+      }
+    },
+    {
+      "available": false,
+      "reg_no": "487",
+      "name": "AINLEY, Alfred John",
+      "coords": {
+        "lat": -37.836168,
+        "lon": 144.953154
+      }
+    },
+    {
+      "available": false,
+      "reg_no": "5539",
+      "name": "AINSWORTH, Donald Alexander",
+      "coords": {
+        "lat": -37.763711,
+        "lon": 144.940635
+      }
+    },
+    {
+      "available": false,
+      "reg_no": "871",
+      "name": "AFFLECK, Herbert Alexander",
+      "coords": {
+        "lat": -37.859979,
+        "lon": 145.016968
+      }
+    },
+    {
+      "available": false,
+      "reg_no": "323",
+      "name": "AIMERS, Walter",
+      "coords": {
+        "lat": -37.78891,
+        "lon": 144.971379
+      }
+    },
+    {
+      "available": false,
+      "reg_no": "1031",
+      "name": "AITKEN, Stanley Ernest",
+      "coords": {
+        "lat": -37.866807,
+        "lon": 144.900426
+      }
+    },
+    {
+      "available": false,
+      "reg_no": "557",
+      "name": "AIR, Henry James",
+      "coords": {
+        "lat": -37.73929,
+        "lon": 144.966096
+      }
+    },
+    {
+      "available": false,
+      "reg_no": "1651",
+      "name": "AKEROYD, Sydney Thornton",
+      "coords": {
+        "lat": -37.8001,
+        "lon": 144.967
+      }
+    },
+    {
+      "available": false,
+      "reg_no": "55326",
+      "name": "ALDER, James Alfred",
+      "coords": {
+        "lat": -37.803066,
+        "lon": 144.96726
+      }
+    },
+    {
+      "available": false,
+      "reg_no": "1309",
+      "name": "AKEROYD, Thomas Charles",
+      "coords": {
+        "lat": -37.782403,
+        "lon": 144.969763
+      }
+    },
+    {
+      "available": false,
+      "reg_no": "2764",
+      "name": "ALBERD, Rupert David",
+      "coords": {
+        "lat": -37.807497,
+        "lon": 144.954183
+      }
+    },
+    {
+      "available": false,
+      "reg_no": "4762",
+      "name": "ALDEN, Reginald Augustus",
+      "coords": {
+        "lat": -39.929651,
+        "lon": 175.046028
+      }
+    },
+    {
+      "available": false,
+      "reg_no": "3753",
+      "name": "ALDER, John James",
+      "coords": {
+        "lat": -37.831009,
+        "lon": 144.992747
+      }
+    },
+    {
+      "available": false,
+      "reg_no": "37",
+      "name": "AITKEN, William",
+      "coords": {
+        "lat": -37.885877,
+        "lon": 145.008347
+      }
+    },
+    {
+      "available": false,
+      "reg_no": "6870",
+      "name": "ALBRECHT, Alfred George",
+      "coords": {
+        "lat": -37.814267,
+        "lon": 144.993859
+      }
+    },
+    {
+      "available": false,
+      "reg_no": "160",
+      "name": "ALDOUS, Percival John",
+      "coords": {
+        "lat": -37.751066,
+        "lon": 145.060538
+      }
+    },
+    {
+      "available": false,
+      "reg_no": "516",
+      "name": "ALBURY, Basil Henry *",
+      "coords": {
+        "lat": -37.90394,
+        "lon": 144.991073
+      }
+    },
+    {
+      "available": false,
+      "reg_no": "2108",
+      "name": "ALBRECHT, William Paul",
+      "coords": {
+        "lat": -37.840358,
+        "lon": 144.935558
+      }
+    },
+    {
+      "available": false,
+      "reg_no": "4427",
+      "name": "ALDERMAN, Arthur Benjamin",
+      "coords": {
+        "lat": -37.798,
+        "lon": 144.899
+      }
+    },
+    {
+      "available": false,
+      "reg_no": "61107",
+      "name": "ALDRED, Harold James Augustus",
+      "coords": {
+        "lat": -37.872976,
+        "lon": 145.038605
+      }
+    },
+    {
+      "available": false,
+      "reg_no": "50001",
+      "name": "ALDRED, Sydney",
+      "coords": {
+        "lat": -37.841491,
+        "lon": 144.988723
+      }
+    },
+    {
+      "available": false,
+      "reg_no": "20442",
+      "name": "ALBRECHT, Joseph",
+      "coords": {
+        "lat": -37.8054,
+        "lon": 144.986802
+      }
+    },
+    {
+      "available": false,
+      "reg_no": "978",
+      "name": "ALDRED, Engton Savage",
+      "coords": {
+        "lat": -37.872976,
+        "lon": 145.038605
+      }
+    },
+    {
+      "available": false,
+      "reg_no": "321",
+      "name": "ALDERSON, Alfred John",
+      "coords": {
+        "lat": -37.794816,
+        "lon": 144.898175
+      }
+    },
+    {
+      "available": false,
+      "reg_no": "10313",
+      "name": "ALDERTON, Charles Edward",
+      "coords": {
+        "lat": -37.8011,
+        "lon": 144.979
+      }
+    },
+    {
+      "available": false,
+      "reg_no": "3572",
+      "name": "ALEXANDER, Frederick Bert",
+      "coords": {
+        "lat": -37.836707,
+        "lon": 144.963446
+      }
+    },
+    {
+      "available": false,
+      "reg_no": "514",
+      "name": "ALEXANDER, Archibald",
+      "coords": {
+        "lat": -37.797202,
+        "lon": 144.98323
+      }
+    },
+    {
+      "available": false,
+      "reg_no": "3191",
+      "name": "ALEXANDER, Ernest Charles",
+      "coords": {
+        "lat": -38.127847,
+        "lon": 144.352618
+      }
+    },
+    {
+      "available": false,
+      "reg_no": "8064",
+      "name": "ALDRED, Harry",
+      "coords": {
+        "lat": -37.835,
+        "lon": 144.96
+      }
+    },
+    {
+      "available": false,
+      "reg_no": "51529",
+      "name": "ALEXANDER, Arthur Crage",
+      "coords": {
+        "lat": -37.847961,
+        "lon": 144.961718
+      }
+    },
+    {
+      "available": false,
+      "reg_no": "1902",
+      "name": "ALEXANDER, Harold William George",
+      "coords": {
+        "lat": -38.153158,
+        "lon": 144.36731
+      }
+    },
+    {
+      "available": false,
+      "reg_no": "3682",
+      "name": "ALDRED, Alfred John",
+      "coords": {
+        "lat": -37.791,
+        "lon": 144.931
+      }
+    },
+    {
+      "available": false,
+      "reg_no": "6382",
+      "name": "ALDRIDGE, Charles Walter",
+      "coords": {
+        "lat": -37.808094,
+        "lon": 144.981694
+      }
+    },
+    {
+      "available": false,
+      "reg_no": "4058",
+      "name": "ALDERMAN, Herbert Hume",
+      "coords": {
+        "lat": -37.804019,
+        "lon": 144.897795
+      }
+    },
+    {
+      "available": false,
+      "reg_no": "6584",
+      "name": "ALEXANDER, Archibald Francis",
+      "coords": {
+        "lat": -37.864843,
+        "lon": 145.032933
+      }
+    },
+    {
+      "available": false,
+      "reg_no": "37556",
+      "name": "ALEXANDER, James Leonard",
+      "coords": {
+        "lat": -38.006909,
+        "lon": 146.952736
+      }
+    },
+    {
+      "available": false,
+      "reg_no": "2506",
+      "name": "ALEXANDER, Frederick Lionel",
+      "coords": {
+        "lat": -37.866921,
+        "lon": 145.002481
+      }
+    },
+    {
+      "available": false,
+      "reg_no": "3308",
+      "name": "ALBREY, John Samuel",
+      "coords": {
+        "lat": 6.938039,
+        "lon": -73.273945
+      }
+    },
+    {
+      "available": false,
+      "reg_no": "33332",
+      "name": "ALEXANDER, Robert Buchanan",
+      "coords": {
+        "lat": -37.864843,
+        "lon": 145.032933
+      }
+    },
+    {
+      "available": false,
+      "reg_no": "9519",
+      "name": "ALEXANDER, Harry",
+      "coords": {
+        "lat": -37.794607,
+        "lon": 144.891445
+      }
+    },
+    {
+      "available": false,
+      "reg_no": "61345",
+      "name": "ALEXANDER, Isaac Solomon",
+      "coords": {
+        "lat": -37.848548,
+        "lon": 145.010701
+      }
+    },
+    {
+      "available": false,
+      "reg_no": "38942",
+      "name": "ALEXANDER, Leslie Gordon",
+      "coords": {
+        "lat": -37.855336,
+        "lon": 144.996621
+      }
+    },
+    {
+      "available": false,
+      "reg_no": "60640",
+      "name": "ALLAN, Francis",
+      "coords": {
+        "lat": -37.880538,
+        "lon": 145.010208
+      }
+    },
+    {
+      "available": false,
+      "reg_no": "2557",
+      "name": "ALLAN, Edward John",
+      "coords": {
+        "lat": -38.144602,
+        "lon": 144.349345
+      }
+    },
+    {
+      "available": false,
+      "reg_no": "1114",
+      "name": "ALLAN, David Thomas",
+      "coords": {
+        "lat": -37.868543,
+        "lon": 144.900786
+      }
+    },
+    {
+      "available": false,
+      "reg_no": "457",
+      "name": "ALLAN, George Gilbert",
+      "coords": {
+        "lat": -37.815787,
+        "lon": 144.89248
+      }
+    },
+    {
+      "available": false,
+      "reg_no": "2102",
+      "name": "ALLAN, Frederick",
+      "coords": {
+        "lat": -37.792233,
+        "lon": 144.978266
+      }
+    },
+    {
+      "available": false,
+      "reg_no": "7974",
+      "name": "ALLAN, Douglas Culam Herbert",
+      "coords": {
+        "lat": -37.796672,
+        "lon": 144.955903
+      }
+    },
+    {
+      "available": false,
+      "reg_no": "2966",
+      "name": "ALEXANDER, William Robert",
+      "coords": {
+        "lat": -37.752698,
+        "lon": 144.950441
+      }
+    },
+    {
+      "available": false,
+      "reg_no": "1379",
+      "name": "ALLAN, Herbert Alfred",
+      "coords": {
+        "lat": -36.431849,
+        "lon": 146.238429
+      }
+    },
+    {
+      "available": false,
+      "reg_no": "1006",
+      "name": "ALDERSLEY, Albert Frederick",
+      "coords": {
+        "lat": -37.827925,
+        "lon": 144.959018
+      }
+    },
+    {
+      "available": false,
+      "reg_no": "6903",
+      "name": "ALLAN, George",
+      "coords": {
+        "lat": -37.835763,
+        "lon": 144.988754
+      }
+    },
+    {
+      "available": false,
+      "reg_no": "4652",
+      "name": "ALLAN, Ernest Walter",
+      "coords": {
+        "lat": -37.799421,
+        "lon": 144.968922
+      }
+    },
+    {
+      "available": false,
+      "reg_no": "2569",
+      "name": "ALFORD, Charles Stuart",
+      "coords": {
+        "lat": -37.801938,
+        "lon": 144.975407
+      }
+    },
+    {
+      "available": false,
+      "reg_no": "4267",
+      "name": "ALI, Almas Sydney",
+      "coords": {
+        "lat": -37.771671,
+        "lon": 144.963597
+      }
+    },
+    {
+      "available": false,
+      "reg_no": "35013",
+      "name": "ALLAN, Charles Lemert",
+      "coords": {
+        "lat": -37.861283,
+        "lon": 144.997075
+      }
+    },
+    {
+      "available": false,
+      "reg_no": "2097",
+      "name": "ALLAN, Ernest James",
+      "coords": {
+        "lat": -37.843399,
+        "lon": 144.990513
+      }
+    },
+    {
+      "available": false,
+      "reg_no": "153",
+      "name": "ALEXANDER, William John",
+      "coords": {
+        "lat": -37.851541,
+        "lon": 145.200167
+      }
+    },
+    {
+      "available": false,
+      "reg_no": "3059",
+      "name": "ALDERSLEY, Alfred William Silvester",
+      "coords": {
+        "lat": -37.827925,
+        "lon": 144.959018
+      }
+    },
+    {
+      "available": false,
+      "reg_no": "1409",
+      "name": "ALGERNON, Harry",
+      "coords": {
+        "lat": -37.84559,
+        "lon": 144.95761
+      }
+    },
+    {
+      "available": false,
+      "reg_no": "133",
+      "name": "ALLAN, James",
+      "coords": {
+        "lat": -37.803774,
+        "lon": 144.97997
+      }
+    },
+    {
+      "available": false,
+      "reg_no": "61346",
+      "name": "ALLAN, Frank Powell",
+      "coords": {
+        "lat": -37.85316,
+        "lon": 145.029815
+      }
+    },
+    {
+      "available": false,
+      "reg_no": "1033",
+      "name": "ALLAN, John William",
+      "coords": {
+        "lat": -37.845414,
+        "lon": 144.945432
+      }
+    },
+    {
+      "available": false,
+      "reg_no": "6281",
+      "name": "ALLAN, Raymond Russell",
+      "coords": {
+        "lat": -37.7667,
+        "lon": 144.963
+      }
+    },
+    {
+      "available": false,
+      "reg_no": "10577",
+      "name": "ALLAN, James William",
+      "coords": {
+        "lat": -37.5623,
+        "lon": 143.8607
+      }
+    },
+    {
+      "available": false,
+      "reg_no": "2776",
+      "name": "ALLAN, James Young",
+      "coords": {
+        "lat": -37.8001,
+        "lon": 144.967
+      }
+    },
+    {
+      "available": false,
+      "reg_no": "367",
+      "name": "ALLAN, James Peter",
+      "coords": {
+        "lat": -37.845893,
+        "lon": 145.008412
+      }
+    },
+    {
+      "available": false,
+      "reg_no": "4603",
+      "name": "ALLAN, George Russell",
+      "coords": {
+        "lat": -37.80113,
+        "lon": 144.981857
+      }
+    },
+    {
+      "available": false,
+      "reg_no": "2322",
+      "name": "ALLAN, Stanley Charles",
+      "coords": {
+        "lat": -37.55675,
+        "lon": 143.865908
+      }
+    },
+    {
+      "available": false,
+      "reg_no": "550",
+      "name": "ALLAN, William Henry Alexander",
+      "coords": {
+        "lat": -37.747116,
+        "lon": 144.804714
+      }
+    },
+    {
+      "available": false,
+      "reg_no": "1761",
+      "name": "ALLAN, William John",
+      "coords": {
+        "lat": -37.788626,
+        "lon": 144.986785
+      }
+    },
+    {
+      "available": false,
+      "reg_no": "2504",
+      "name": "ALLAN, Oliver",
+      "coords": {
+        "lat": -37.798266,
+        "lon": 144.976189
+      }
+    },
+    {
+      "available": false,
+      "reg_no": "8047",
+      "name": "ALLAN, John Mitchell",
+      "coords": {
+        "lat": -38.109493,
+        "lon": 145.283551
+      }
+    },
+    {
+      "available": false,
+      "reg_no": "2496",
+      "name": "ALLARDICE, David Duncan",
+      "coords": {
+        "lat": -37.788603,
+        "lon": 144.988137
+      }
+    },
+    {
+      "available": false,
+      "reg_no": "4648",
+      "name": "ALLAN, Jack Gadsby",
+      "coords": {
+        "lat": -37.563099,
+        "lon": 143.8533
+      }
+    },
+    {
+      "available": false,
+      "reg_no": "6901",
+      "name": "ALLAN, Robert Leslie",
+      "coords": {
+        "lat": -37.772755,
+        "lon": 144.925976
+      }
+    },
+    {
+      "available": false,
+      "reg_no": "3751",
+      "name": "ALLARDICE, David Duncan",
+      "coords": {
+        "lat": -37.789128,
+        "lon": 144.991973
+      }
+    },
+    {
+      "available": false,
+      "reg_no": "391",
+      "name": "ALLAN, William Henry",
+      "coords": {
+        "lat": -37.78246,
+        "lon": 145.008255
+      }
+    },
+    {
+      "available": false,
+      "reg_no": "847",
+      "name": "ALLEN, Albert Edward",
+      "coords": {
+        "lat": -36.765231,
+        "lon": 144.279519
+      }
+    },
+    {
+      "available": false,
+      "reg_no": "161",
+      "name": "ALLANDER, Albert",
+      "coords": {
+        "lat": -37.807114,
+        "lon": 144.988948
+      }
+    },
+    {
+      "available": false,
+      "reg_no": "10972",
+      "name": "ALLDIS, William Pope",
+      "coords": {
+        "lat": -37.810847,
+        "lon": 144.889472
+      }
+    },
+    {
+      "available": false,
+      "reg_no": "4056",
+      "name": "ALLEN, Albert",
+      "coords": {
+        "lat": -37.846251,
+        "lon": 144.952091
+      }
+    },
+    {
+      "available": false,
+      "reg_no": "10639",
+      "name": "ALLEN, David",
+      "coords": {
+        "lat": -37.866808,
+        "lon": 144.998378
+      }
+    },
+    {
+      "available": false,
+      "reg_no": "11637",
+      "name": "ALLDERSEA, Gordon James",
+      "coords": {
+        "lat": -37.909586,
+        "lon": 145.010983
+      }
+    },
+    {
+      "available": false,
+      "reg_no": "10382",
+      "name": "ALLEN, Arthur John Harward",
+      "coords": {
+        "lat": -37.858426,
+        "lon": 145.005563
+      }
+    },
+    {
+      "available": false,
+      "reg_no": "4428",
+      "name": "ALLEN, Albert",
+      "coords": {
+        "lat": -36.431849,
+        "lon": 146.238429
+      }
+    },
+    {
+      "available": false,
+      "reg_no": "55086",
+      "name": "ALLARDICE, Norman Joseph",
+      "coords": {
+        "lat": -37.836842,
+        "lon": 144.949113
+      }
+    },
+    {
+      "available": false,
+      "reg_no": "2457",
+      "name": "ALDRED, Eric",
+      "coords": {
+        "lat": -37.809416,
+        "lon": 144.993695
+      }
+    },
+    {
+      "available": false,
+      "reg_no": "1501",
+      "name": "ALDRIDGE, Thomas",
+      "coords": {
+        "lat": -36.619223,
+        "lon": 144.591875
+      }
+    },
+    {
+      "available": false,
+      "reg_no": "R1501",
+      "name": "ALDRIDGE, Thomas",
+      "coords": {
+        "lat": -36.619223,
+        "lon": 144.591875
+      }
+    },
+    {
+      "available": false,
+      "reg_no": "7194",
+      "name": "ALLEN, Albert Henry",
+      "coords": {
+        "lat": -37.821357,
+        "lon": 145.006245
+      }
+    },
+    {
+      "available": false,
+      "reg_no": "454",
+      "name": "ALEXANDER, Albert",
+      "coords": {
+        "lat": -37.797202,
+        "lon": 144.98323
+      }
+    },
+    {
+      "available": false,
+      "reg_no": "3622",
+      "name": "ALLEN, Clifford Horace",
+      "coords": {
+        "lat": -37.852509,
+        "lon": 144.998211
+      }
+    },
+    {
+      "available": false,
+      "reg_no": "1412",
+      "name": "ALLEN, Albert Ernest",
+      "coords": {
+        "lat": -37.740376,
+        "lon": 144.958543
+      }
+    },
+    {
+      "available": false,
+      "reg_no": "69231",
+      "name": "ALLEN, Francis Peter",
+      "coords": {
+        "lat": -37.803648,
+        "lon": 144.968076
+      }
+    },
+    {
+      "available": false,
+      "reg_no": "5787",
+      "name": "ALEXANDER, Francis Oliver",
+      "coords": {
+        "lat": -37.77866,
+        "lon": 144.978517
+      }
+    },
+    {
+      "available": false,
+      "reg_no": "63",
+      "name": "ALLEN, Herbert Charles",
+      "coords": {
+        "lat": -37.850296,
+        "lon": 145.014578
+      }
+    },
+    {
+      "available": false,
+      "reg_no": "5292",
+      "name": "ALLEN, Albert Victor",
+      "coords": {
+        "lat": -37.765706,
+        "lon": 144.956271
+      }
+    },
+    {
+      "available": false,
+      "reg_no": "1530",
+      "name": "ALLEN, Alfred James",
+      "coords": {
+        "lat": -37.77723,
+        "lon": 144.920209
+      }
+    },
+    {
+      "available": false,
+      "reg_no": "3305",
+      "name": "ALLEN, Edward",
+      "coords": {
+        "lat": -37.84,
+        "lon": 144.989
+      }
+    },
+    {
+      "available": false,
+      "reg_no": "3679",
+      "name": "ALLEN, Leo",
+      "coords": {
+        "lat": -37.84,
+        "lon": 144.989
+      }
+    },
+    {
+      "available": false,
+      "reg_no": "2332",
+      "name": "ALLEN, Alexandra",
+      "coords": {
+        "lat": -37.84728,
+        "lon": 144.989259
+      }
+    },
+    {
+      "available": false,
+      "reg_no": "35860",
+      "name": "ALLEN, Charles Edward",
+      "coords": {
+        "lat": -37.79165,
+        "lon": 144.996651
+      }
+    },
+    {
+      "available": false,
+      "reg_no": "2202",
+      "name": "ALLEN, Charles August",
+      "coords": {
+        "lat": -37.79917,
+        "lon": 144.94667
+      }
+    },
+    {
+      "available": false,
+      "reg_no": "532",
+      "name": "ALLEN, Ernest Robert",
+      "coords": {
+        "lat": -37.793097,
+        "lon": 144.891681
+      }
+    },
+    {
+      "available": false,
+      "reg_no": "4729",
+      "name": "ALLEN, George Ellsworth",
+      "coords": {
+        "lat": -37.725471,
+        "lon": 144.988859
+      }
+    },
+    {
+      "available": false,
+      "reg_no": "84",
+      "name": "ALLEN, Henry William",
+      "coords": {
+        "lat": -37.75431,
+        "lon": 144.918162
+      }
+    },
+    {
+      "available": false,
+      "reg_no": "1091",
+      "name": "ALEXANDER, Herbert",
+      "coords": {
+        "lat": -37.75743,
+        "lon": 144.913012
+      }
+    },
+    {
+      "available": false,
+      "reg_no": "20265",
+      "name": "ALLEN, Harold Stewart",
+      "coords": {
+        "lat": -37.844756,
+        "lon": 144.989237
+      }
+    },
+    {
+      "available": false,
+      "reg_no": "66",
+      "name": "ALLEN, Alfred Wheeler",
+      "coords": {
+        "lat": -37.838345,
+        "lon": 144.988108
+      }
+    },
+    {
+      "available": false,
+      "reg_no": "2462",
+      "name": "ALLEN, Albert Edward Joseph",
+      "coords": {
+        "lat": -36.619223,
+        "lon": 144.591875
+      }
+    },
+    {
+      "available": false,
+      "reg_no": "25913",
+      "name": "ALLEN, John Gregory *",
+      "coords": {
+        "lat": -37.64992,
+        "lon": 145.092401
+      }
+    },
+    {
+      "available": false,
+      "reg_no": "1966",
+      "name": "ALLEN, Herbert Percy",
+      "coords": {
+        "lat": -37.858426,
+        "lon": 145.005563
+      }
+    },
+    {
+      "available": false,
+      "reg_no": "1328",
+      "name": "ALLEN, George Herbert",
+      "coords": {
+        "lat": -37.790667,
+        "lon": 144.94125
+      }
+    },
+    {
+      "available": false,
+      "reg_no": "60875",
+      "name": "ALLEN, Gordon Ernest",
+      "coords": {
+        "lat": -37.817805,
+        "lon": 145.02401
+      }
+    },
+    {
+      "available": false,
+      "reg_no": "462",
+      "name": "ALLEN, Jack",
+      "coords": {
+        "lat": -37.764961,
+        "lon": 144.910303
+      }
+    },
+    {
+      "available": false,
+      "reg_no": "401",
+      "name": "ALLEN, Desmond Claude",
+      "coords": {
+        "lat": -37.806997,
+        "lon": 144.95521
+      }
+    },
+    {
+      "available": false,
+      "reg_no": "592",
+      "name": "ALDRIDGE, Harold John",
+      "coords": {
+        "lat": -37.790383,
+        "lon": 144.983706
+      }
+    },
+    {
+      "available": false,
+      "reg_no": "3230",
+      "name": "ALLEN, Arthur",
+      "coords": {
+        "lat": -37.771323,
+        "lon": 144.953911
+      }
+    },
+    {
+      "available": false,
+      "reg_no": "33",
+      "name": "ALLEN, James Henry",
+      "coords": {
+        "lat": -37.846251,
+        "lon": 144.952091
+      }
+    },
+    {
+      "available": false,
+      "reg_no": "5328",
+      "name": "ALLAN, Ernest Athol",
+      "coords": {
+        "lat": -37.800957,
+        "lon": 144.973344
+      }
+    },
+    {
+      "available": false,
+      "reg_no": "2103",
+      "name": "ALFORD, Ernest Albert",
+      "coords": {
+        "lat": -37.839981,
+        "lon": 144.945525
+      }
+    },
+    {
+      "available": false,
+      "reg_no": "2098",
+      "name": "ALLEN, Frederick Herbert",
+      "coords": {
+        "lat": -37.896722,
+        "lon": 144.640912
+      }
+    },
+    {
+      "available": false,
+      "reg_no": "1621",
+      "name": "ALLEN, Reginald Edgar",
+      "coords": {
+        "lat": -37.561873,
+        "lon": 143.859865
+      }
+    },
+    {
+      "available": false,
+      "reg_no": "1464",
+      "name": "ALLEN, Robert Joseph",
+      "coords": {
+        "lat": -37.797059,
+        "lon": 144.904117
+      }
+    },
+    {
+      "available": false,
+      "reg_no": "899",
+      "name": "ALLEN, Horace Thomas",
+      "coords": {
+        "lat": -37.837479,
+        "lon": 144.981061
+      }
+    },
+    {
+      "available": false,
+      "reg_no": "7196",
+      "name": "ALLANSON, Lawrence Alexander",
+      "coords": {
+        "lat": -37.887,
+        "lon": 145.006
+      }
+    },
+    {
+      "available": false,
+      "reg_no": "55325",
+      "name": "ALDRIDGE, Henry Ivor",
+      "coords": {
+        "lat": -37.849135,
+        "lon": 144.955728
+      }
+    },
+    {
+      "available": false,
+      "reg_no": "32419",
+      "name": "ALLAN, Frank Harold",
+      "coords": {
+        "lat": -37.801008,
+        "lon": 145.032674
+      }
+    },
+    {
+      "available": false,
+      "reg_no": "10205",
+      "name": "ALLEN, Roy Charles",
+      "coords": {
+        "lat": -37.763819,
+        "lon": 145.003464
+      }
+    },
+    {
+      "available": false,
+      "reg_no": "6459",
+      "name": "ALLEN, Leslie John",
+      "coords": {
+        "lat": -37.82473,
+        "lon": 145.120719
+      }
+    },
+    {
+      "available": false,
+      "reg_no": "2571",
+      "name": "ALLAN, Charles Masson",
+      "coords": {
+        "lat": -37.794143,
+        "lon": 144.974337
+      }
+    },
+    {
+      "available": false,
+      "reg_no": "31438",
+      "name": "ALLAN, George Lawrence",
+      "coords": {
+        "lat": -37.806293,
+        "lon": 144.989091
+      }
+    },
+    {
+      "available": false,
+      "reg_no": "458",
+      "name": "ALFORD, George Robert",
+      "coords": {
+        "lat": -37.839821,
+        "lon": 144.946217
+      }
+    },
+    {
+      "available": false,
+      "reg_no": "6710",
+      "name": "ALLEN, Richard",
+      "coords": {
+        "lat": -37.795446,
+        "lon": 144.987781
+      }
+    },
+    {
+      "available": false,
+      "reg_no": "11915",
+      "name": "ALLAN, George",
+      "coords": {
+        "lat": -38.1493,
+        "lon": 144.3598
+      }
+    },
+    {
+      "available": false,
+      "reg_no": "2011",
+      "name": "ALEXANDER, Eric Charles",
+      "coords": {
+        "lat": -36.619223,
+        "lon": 144.591875
+      }
+    },
+    {
+      "available": false,
+      "reg_no": "5030",
+      "name": "ALEXANDER, Leslie George",
+      "coords": {
+        "lat": -37.759153,
+        "lon": 145.002764
+      }
+    },
+    {
+      "available": false,
+      "reg_no": "6",
+      "name": "ALLEN, Percy Devere",
+      "coords": {
+        "lat": -37.856671,
+        "lon": 144.999916
+      }
+    },
+    {
+      "available": false,
+      "reg_no": "3004",
+      "name": "ALLEN, Floyd de Vere",
+      "coords": {
+        "lat": -37.856671,
+        "lon": 144.999916
+      }
+    },
+    {
+      "available": false,
+      "reg_no": "31414",
+      "name": "ALLAN, Robert Alexander",
+      "coords": {
+        "lat": -37.753954,
+        "lon": 144.917695
+      }
+    },
+    {
+      "available": false,
+      "reg_no": "3678",
+      "name": "ALEXANDER, George Robert",
+      "coords": {
+        "lat": 38.2494,
+        "lon": -122.04
+      }
+    },
+    {
+      "available": false,
+      "reg_no": "1704",
+      "name": "ALLAN, Walter Graham",
+      "coords": {
+        "lat": -37.8001,
+        "lon": 144.967
+      }
+    },
+    {
+      "available": false,
+      "reg_no": "3322",
+      "name": "ALLARDICE, Robert James",
+      "coords": {
+        "lat": -37.8011,
+        "lon": 144.979
+      }
+    },
+    {
+      "available": false,
+      "reg_no": "5329",
+      "name": "ALLANBY, Norman Wolseley",
+      "coords": {
+        "lat": -37.85918,
+        "lon": 144.974307
+      }
+    },
+    {
+      "available": false,
+      "reg_no": "3359",
+      "name": "ALLAN, David",
+      "coords": {
+        "lat": -37.801847,
+        "lon": 144.903082
+      }
+    },
+    {
+      "available": false,
+      "reg_no": "7933",
+      "name": "ALLEN, Leslie Max",
+      "coords": {
+        "lat": -37.796601,
+        "lon": 144.985769
+      }
+    },
+    {
+      "available": false,
+      "reg_no": "1503",
+      "name": "ALLAN, William",
+      "coords": {
+        "lat": -36.619223,
+        "lon": 144.591875
+      }
+    },
+    {
+      "available": false,
+      "reg_no": "4241",
+      "name": "ALEXANDER, William John",
+      "coords": {
+        "lat": -37.843076,
+        "lon": 144.990044
+      }
+    },
+    {
+      "available": false,
+      "reg_no": "4638",
+      "name": "ALLEN, Albert",
+      "coords": {
+        "lat": -37.823427,
+        "lon": 144.995656
+      }
+    },
+    {
+      "available": false,
+      "reg_no": "7925",
+      "name": "ALLEN, Robert",
+      "coords": {
+        "lat": -37.820841,
+        "lon": 145.049893
+      }
+    },
+    {
+      "available": false,
+      "reg_no": "5027",
+      "name": "ALLEN, Stanley Gordon",
+      "coords": {
+        "lat": -37.7667,
+        "lon": 144.963
+      }
+    },
+    {
+      "available": false,
+      "reg_no": "12233",
+      "name": "ALLARDICE, David Charles",
+      "coords": {
+        "lat": -37.85315,
+        "lon": 145.001647
+      }
+    },
+    {
+      "available": false,
+      "reg_no": "3002",
+      "name": "ALLEN, Arthur Norman",
+      "coords": {
+        "lat": -37.821485,
+        "lon": 145.007047
+      }
+    },
+    {
+      "available": false,
+      "reg_no": "1870",
+      "name": "ALDRED, Victor Wardley",
+      "coords": {
+        "lat": -37.7667,
+        "lon": 144.963
+      }
+    },
+    {
+      "available": false,
+      "reg_no": "13049",
+      "name": "ALLEN, Herbert Alfred",
+      "coords": {
+        "lat": -37.75762,
+        "lon": 144.960906
+      }
+    },
+    {
+      "available": false,
+      "reg_no": "2777",
+      "name": "ALLEN, Robert James",
+      "coords": {
+        "lat": -37.830773,
+        "lon": 144.99516
+      }
+    },
+    {
+      "available": false,
+      "reg_no": "4497",
+      "name": "ALPASS, Charles William Frederick",
+      "coords": {
+        "lat": -37.849859,
+        "lon": 144.987246
+      }
+    },
+    {
+      "available": false,
+      "reg_no": "1787",
+      "name": "AMY, Alfred James",
+      "coords": {
+        "lat": -37.835971,
+        "lon": 144.941843
+      }
+    },
+    {
+      "available": false,
+      "reg_no": "61578",
+      "name": "AMY, Leslie Ernest",
+      "coords": {
+        "lat": -37.835971,
+        "lon": 144.941843
+      }
+    },
+    {
+      "available": false,
+      "reg_no": "135",
+      "name": "ALLEY, Edwin John",
+      "coords": {
+        "lat": -37.798,
+        "lon": 144.899
+      }
+    },
+    {
+      "available": false,
+      "reg_no": "1430",
+      "name": "AMERY, Frank William",
+      "coords": {
+        "lat": -37.800623,
+        "lon": 144.968382
+      }
+    },
+    {
+      "available": false,
+      "reg_no": "3341",
+      "name": "ALLISON, Arthur Charles",
+      "coords": {
+        "lat": -37.806014,
+        "lon": 144.981271
+      }
     }
   ]
 }
