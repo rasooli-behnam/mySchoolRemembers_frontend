@@ -1,4 +1,3 @@
-import findProfiles, { FindProfilesAction } from "./findProfiles";
 import getActiveProfile, { GetActiveProfileAction } from "./getActiveProfile";
 import timelineChanged, { TimelineChangedAction } from "./timelineChanged";
 import {
@@ -19,8 +18,6 @@ import {
 import { mapActions, mapStartedToFly, mapStoppedFlying } from "./mapActions";
 
 export {
-  findProfiles,
-  FindProfilesAction,
   getActiveProfile,
   GetActiveProfileAction,
   timelineChanged,

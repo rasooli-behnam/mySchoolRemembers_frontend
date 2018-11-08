@@ -49,7 +49,6 @@ export default class Multimedia extends React.Component<Props, State> {
               );
             })}
           </ReactMapGL>
-          <SearchBox />
         </div>
       </Modal>
     );
