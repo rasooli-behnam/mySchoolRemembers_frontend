@@ -8,8 +8,8 @@ import { reformatDate } from "src/utils";
 const sortBy = require("lodash.sortby");
 
 export default function(prevState: AppState, action: GetActiveProfileAction) {
-  if (action.type === constants.GET_ACTIVE_PROFILE) {
-    return getProfile(action.payload.veteranID);
+  if (action.type === `${constants.GET_ACTIVE_PROFILE}_FULFILLED`) {
+    return reformatProfile(action.payload.data);
   }
 
   return prevState && prevState.activeProfile
@@ -17,9 +17,9 @@ export default function(prevState: AppState, action: GetActiveProfileAction) {
     : initialState;
 }
 
-const initialState = getProfile("189210");
+const initialState = reformatProfile(profile);
 
-function getProfile(veteranID: string): AppState["activeProfile"] {
+function reformatProfile(profile: any) {
   const result: AppState["activeProfile"] = {
     ...profile,
     events: sortBy(profile.events, "date").map((e: Event) => {

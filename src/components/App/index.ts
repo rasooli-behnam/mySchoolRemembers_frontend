@@ -1,3 +1,3 @@
-import App from "./App";
+import enhancedComponent from "./wrappers";
 
-export default App;
+export default enhancedComponent;
