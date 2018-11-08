@@ -40,11 +40,11 @@ export default class Multimedia extends React.Component<Props, State> {
             }}
           >
             {profiles.map(vb => {
-              const coords = parseCoordinates(vb.Coordinates);
+              const coords = parseCoordinates(vb.coords);
               return (
                 <Marker latitude={coords.lat} longitude={coords.lon}>
                   <Button className={classes.markerButton} variant="contained">
-                    {`${vb.Name} (${vb.VeteranID})`}
+                    {`${vb.name} (${vb.reg_no})`}
                   </Button>
                 </Marker>
               );

@@ -10,7 +10,7 @@ export default function(
     const payload = action.payload;
     if (payload) {
       return prevState.activeProfile.multimedias.filter(
-        m => m.Date === payload.date
+        m => m.date === payload.date
       );
     } else return prevState.activeProfile.multimedias;
   }

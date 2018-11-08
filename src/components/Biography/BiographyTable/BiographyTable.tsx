@@ -10,7 +10,7 @@ import { Props } from "./types";
 class BiographyTable extends React.Component<Props> {
   render() {
     const { classes } = this.props;
-    const { veteranBio, externalResources } = this.props.profile;
+    const { bio, external_resources } = this.props.profile;
 
     return (
       <Paper className={classes.root}>
@@ -18,12 +18,12 @@ class BiographyTable extends React.Component<Props> {
           <TableHead>
             <TableRow>
               <TableCell>
-                <img width={200} height={250} src={veteranBio.Photo} />
+                <img width={200} height={250} src={bio.photo} />
               </TableCell>
               <TableCell>
-                <h1>{veteranBio.Name}</h1>
-                <h2>{veteranBio.VeteranID}</h2>
-                <h3>{veteranBio.Summary}</h3>
+                <h1>{bio.name}</h1>
+                <h2>{bio.reg_no}</h2>
+                <h3>{bio.summary}</h3>
               </TableCell>
             </TableRow>
             <TableRow>
@@ -32,22 +32,22 @@ class BiographyTable extends React.Component<Props> {
             </TableRow>
           </TableHead>
           <TableBody>
-            {Object.keys(veteranBio)
-              .filter(k => k !== "Photo" && k !== "Coordinates")
+            {Object.keys(bio)
+              .filter(k => k !== "photo" && k !== "coords")
               .map(k => {
                 return (
                   <TableRow key={k}>
                     <TableCell>{k}</TableCell>
-                    <TableCell>{veteranBio[k]}</TableCell>
+                    <TableCell>{bio[k]}</TableCell>
                   </TableRow>
                 );
               })}
-            {externalResources.map(er => {
+            {external_resources.map(er => {
               return (
-                <TableRow key={er.ResourceName}>
-                  <TableCell>{er.ResourceName}</TableCell>
+                <TableRow key={er.name}>
+                  <TableCell>{er.name}</TableCell>
                   <TableCell>
-                    <a href={er.ResourceLink} target="_blank">
+                    <a href={er.link} target="_blank">
                       link
                     </a>
                   </TableCell>

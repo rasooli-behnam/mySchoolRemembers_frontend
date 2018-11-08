@@ -1,4 +1,5 @@
 import activeProfileReducer from "./activeProfileReducer";
+import Bio from "src/dataTypes/Bio";
 import componentsVisibilityReducer from "./componentsVisibilityReducer";
 import CurrentEvent from "src/dataTypes/CurrentEvent";
 import currentEventReducer from "./currentEventReducer";
@@ -6,9 +7,9 @@ import Event from "src/dataTypes/Events";
 import ExternalResource from "src/dataTypes/ExternalResource";
 import Multimedia from "src/dataTypes/Multimedia";
 import multimediasReducer from "./multimediasReducer";
+import Profile from "src/dataTypes/Profile";
 import profilesReducer from "./profilesReducer";
 import timelineStateReducer from "./timelineStateReducer";
-import VeteranBio from "src/dataTypes/VeteranBio";
 
 export default function combineReducers(
   appState: AppState,
@@ -26,9 +27,9 @@ export default function combineReducers(
 
 export interface AppState {
   activeProfile: {
-    veteranBio: VeteranBio;
+    bio: Bio;
     events: Event[];
-    externalResources: ExternalResource[];
+    external_resources: ExternalResource[];
     multimedias: Multimedia[];
   };
   componentsVisibility: {
@@ -42,5 +43,5 @@ export interface AppState {
     isDisabled: boolean;
   };
   multimedias: Multimedia[];
-  profiles: VeteranBio[];
+  profiles: Profile[];
 }

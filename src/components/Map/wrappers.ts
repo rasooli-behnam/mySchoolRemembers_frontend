@@ -25,10 +25,10 @@ export default connect(
 function getCurrentEvent(appState: AppState): CurrentEvent {
   const event = appState.activeProfile.events[appState.currentEventIndex];
   const image = appState.activeProfile.multimedias.find(
-    m => m.Date === event.Date
+    m => m.date === event.date
   );
   return {
     ...event,
-    Image: image ? image.Source : ""
+    image: image ? image.src : ""
   };
 }

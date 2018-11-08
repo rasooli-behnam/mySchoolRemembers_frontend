@@ -80,4 +80,4 @@ export default class SearchBox extends React.Component<Props, State> {
   }
 }
 
-const catergories = ["Name", "City", "State", "Postcode"];
+const catergories = ["name", "city", "state", "postcode"];

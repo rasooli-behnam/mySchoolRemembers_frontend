@@ -1,0 +1,171 @@
+{
+  "bio": {
+    "reg_no": "1553",
+    "photo": "https://lewebpedagogique.com/sharedcentenary/files/2014/10/jm.jpg",
+    "name": "James MARTIN",
+    "place_of_birth": "Tocumwal, New South Wales",
+    "religion": "Church of England",
+    "occupation": "Farm Hand",
+    "street": "43 Mary St",
+    "city": "Hawthorn",
+    "state": "Victoria",
+    "postcode": "3122",
+    "coords": "-37.817581,145.033184",
+    "age_at_embark": "18",
+    "height": "5'6\"",
+    "weight": "133 lbs",
+    "next_of_kin": "Mother, Mrs Amelia Martin, 43 Mary Street, Hawthorn, Victoria",
+    "prev_military_service": "Nil",
+    "enlist_date": "12 April 1915",
+    "rank": "Private",
+    "unit": "21st Battalion, 1st Reinforcement",
+    "AWM_embark_roll_no": "23/38/2",
+    "embark_details": "Unit embarked from Melbourne, Victoria, on board HMAT Berrima on 28 June 1915",
+    "summary": "James Charles Martin was born at Tocumwal, New South Wales, on 3 January 1901, James Martin is considered the youngest to have died on active service."
+  },
+  "events": [
+    {
+      "name": "Sample event 1",
+      "date": "1914-01-01",
+      "coords": "-37.803941,145.033249"
+    },
+    {
+      "name": "Sample event 2",
+      "date": "1914-05-15",
+      "coords": "19.590961,37.188198"
+    },
+    {
+      "name": "Sample event 3",
+      "date": "1915-08-21",
+      "coords": "-33.866244,151.209123"
+    }
+  ],
+  "external_resources": [
+    {
+      "name": "NAA",
+      "link": "https://recordsearch.naa.gov.au/SearchNRetrieve/Interface/ViewImage.aspx?B=997199"
+    },
+    {
+      "name": "AIF Project",
+      "link": "https://www.aif.adfa.edu.au/showPerson?pid=189210"
+    },
+    {
+      "name": "TROVE",
+      "link": "https://trove.nla.gov.au/result?q=James+Martin+DWYER"
+    },
+    {
+      "name": "Australian War Memorial",
+      "link": "https://www.awm.gov.au/collection/P11013283"
+    }
+  ],
+  "multimedias": [
+    {
+      "date": "1914-01-01",
+      "title": "Studio Portrait",
+      "desc": "Studio portrait of 1553 Private (Pte) James (Jim) Martin, 1st Reinforcements, 21st Battalion, of Hawthorn, Vic. Pte Martin was born at Tocumwal on 3 January 1901. He enlisted on 12 April 1915, aged 14 years and 3 months, perhaps the youngest soldier to serve in the Australian forces, and embarked from Melbourne aboard HMAT Berrima on 28 June 1915. On 25 October 1915 he died of fever caught in the trenches of Gallipoli.",
+      "src": "https://s3-ap-southeast-2.amazonaws.com/awm-media/collection/P00069.001/screen/6135746.JPG",
+      "thumbnail": "https://s3-ap-southeast-2.amazonaws.com/awm-media/collection/P00069.001/screen/6135746.JPG",
+      "link": "https://www.awm.gov.au/collection/P11013283",
+      "type": "image"
+    },
+    {
+      "date": "1914-01-01",
+      "title": "Group Portrait",
+      "desc": "Group portrait of 1553 Private (Pte) James (Jim) Martin, of Hawthorn, Vic, with his five sisters. Identified, left to right: Annie, Alice, Millie, James, Ester and Mary. Pte Martin enlisted on 12 April 1915, aged 14 years and 3 months, perhaps the youngest soldier to serve in the Australian forces, and embarked from Melbourne aboard HMAT Berrima on 28 June 1915, with the 1st Reinforcements, 21st Battalion. He died of fever caught in the trenches of Gallipoli on 25 October 1915.",
+      "src": "https://s3-ap-southeast-2.amazonaws.com/awm-media/collection/P05051.001/screen/3790855.JPG",
+      "thumbnail": "https://s3-ap-southeast-2.amazonaws.com/awm-media/collection/P05051.001/screen/3790855.JPG",
+      "link": "https://www.heraldsun.com.au/leader/inner-east/hawthorns-james-martin-brave-beyond-his-years-at-gallipoli/news-story/815474be07c3e5cae7696b43eb2b68cd",
+      "type": "image"
+    },
+    {
+      "date": "1914-01-01",
+      "title": "James Martin",
+      "desc": "Portrait of James Martin, beside the Roll of Honour cloisters on the 100th anniversary of the outbreak of the First World War. James Martin, an 11 year old from Queanbeyan, shares the same name as 1553 Private (Pte) James Charles (Jim) Martin, who was the youngest Anzac to die on active service at the age of 14 years and ten months on 25 October 1915. A photograph of Pte Martin, who served with the 21st Australian Infantry Battalion, is held at P00069.001. James Martin holds the trio of service medals that Pte Jim Martin would have been entitled to, and which were issued to his family upon his death in 1915.",
+      "src": "https://s3-ap-southeast-2.amazonaws.com/awm-media/collection/P11807.001/screen/6075084.JPG",
+      "thumbnail": "https://s3-ap-southeast-2.amazonaws.com/awm-media/collection/P11807.001/screen/6075084.JPG",
+      "link": "https://www.heraldsun.com.au/leader/inner-east/hawthorns-james-martin-brave-beyond-his-years-at-gallipoli/news-story/815474be07c3e5cae7696b43eb2b68cd",
+      "type": "image"
+    },
+    {
+      "date": "1914-05-15",
+      "title": "Identity Disc Stamped",
+      "desc": "Circular aluminium identity disc stamped with '1553 / 1 21 / AIF / CF'. 'MARTIN' is scatched into the disc between 'AIF' and 'CF'.\n\nHistory / Summary\nJames Charles Martin was born at Tocumwal, New South Wales, on 3 January 1901. Keen for all things military, Jim joined the cadets at school and the year after leaving school he took up work as a farm hand. In 1915, Martin was eager to enlist with the Australian Imperial Force. His father had previously been rejected from service and Jim, the only male child of his family, was keen to serve in place of his father. Anyone under the age of 21 required written parental permission to enlist, and although Martin looked old for his age and his voice had broken he could not pass for a 21-year-old.\n\nWhen Jim threatened to run away, join under another name and not to write to her if he succeeded in being deployed, his mother reluctantly gave her written permission for him to enlist. Martin succeeded in enlisting at the age of 14 years and 3 months, almost 4 years under the minimum age. After training for several months at Broadmeadows Camp, he departed with the 21st Infantry Battalion from Melbourne aboard HMAT Berrima on 28 June 1915.\n\nFrom Egypt Martin and the other reinforcements of the 21st Battalion were deployed to Gallipoli. Their transport ship was torpedoed en route by a German submarine and Martin and several others spent hours in the water before being rescued. Martin eventually landed on Gallipoli in the early hours of 7 September and took up position near Wire Gully. In the following few months casualties from enemy action were slight, but the front-line work, short rations, sickness, flies, lice, and mosquitoes took their toll on the unit. Martin sent several letters to his parents from Gallipoli. In late October he contracted typhoid fever and was evacuated to hospital ship HMHS Glenart Castle on 25 October 1915. By this time he had lost half his weight and was in a bad state. Despite the best efforts of the medical staff aboard, in particular that of Matron Frances Hope Logie Reddoch, Martin died of heart failure just under two hours later. He was three months short of his 15th birthday. Martin was buried at sea and is commemorated on the Lone Pine Memorial on Gallipoli. The day after his death, Matron Reddoch wrote a heartfelt letter to Martin's mother back in Australia about her young son.\n\nWhile he may not have been the youngest Australian to serve during the First World War, James Martin is considered the youngest to have died on active service.",
+      "src": "https://s3-ap-southeast-2.amazonaws.com/awm-media/collection/REL/08576/screen/4187778.JPG",
+      "thumbnail": "https://s3-ap-southeast-2.amazonaws.com/awm-media/collection/REL/08576/screen/4187778.JPG",
+      "link": "https://www.heraldsun.com.au/leader/inner-east/hawthorns-james-martin-brave-beyond-his-years-at-gallipoli/news-story/815474be07c3e5cae7696b43eb2b68cd",
+      "type": "image"
+    },
+    {
+      "date": "1914-05-15",
+      "title": "Victory Medal",
+      "desc": "Victory Medal. Impressed reverese with recipient's details.\n\nHistory / Summary\nAssociated with 1553 Private James Martin, 21 Battalion AIF. He enlisted at Hawthorn, Victoria, on 12 April 1915, aged fourteen. Served on Gallipoli, was evacuated suffering from enteric fever, and died of disease at sea on 25 October 1915. He is commemorated on the Lone Pine Memorial and, at 14 years and 9 months, is said to have been the youngest member of the AIF to die in the First World War.",
+      "src": "https://s3-ap-southeast-2.amazonaws.com/awm-media/collection/REL/13269/screen/3844754.JPG",
+      "thumbnail": "https://s3-ap-southeast-2.amazonaws.com/awm-media/collection/REL/13269/screen/3844754.JPG",
+      "link": "https://www.heraldsun.com.au/leader/inner-east/hawthorns-james-martin-brave-beyond-his-years-at-gallipoli/news-story/815474be07c3e5cae7696b43eb2b68cd",
+      "type": "image"
+    },
+    {
+      "date": "1914-05-15",
+      "title": "Star",
+      "desc": "1914-15 Star. Impressed reverse with recipient's details.\n\nHistory / Summary\nAssociated with 1553 Private James Martin, 21 Battalion AIF. He enlisted at Hawthorn, Victoria, on 12 April 1915, aged fourteen. Served on Gallipoli, was evacuated suffering from enteric fever, and died of disease at sea on 25 October 1915. He is commemorated on the Lone Pine Memorial and, at 14 years and 9 months, is said to have been the youngest member of the AIF to die in the First World War.",
+      "src": "https://s3-ap-southeast-2.amazonaws.com/awm-media/collection/REL28919.001/screen/3833919.JPG",
+      "thumbnail": "https://s3-ap-southeast-2.amazonaws.com/awm-media/collection/REL28919.001/screen/3833919.JPG",
+      "link": "https://www.heraldsun.com.au/leader/inner-east/hawthorns-james-martin-brave-beyond-his-years-at-gallipoli/news-story/815474be07c3e5cae7696b43eb2b68cd",
+      "type": "image"
+    },
+    {
+      "date": "1914-05-15",
+      "title": "British War Medal",
+      "desc": "British War Medal 1914-20. Impressed around edge with recipient's details.\n\nHistory / Summary\nAssociated with 1553 Private James Martin, 21 Battalion AIF. He enlisted at Hawthorn, Victoria, on 12 April 1915, aged fourteen. Served on Gallipoli, was evacuated suffering from enteric fever, and died of disease at sea on 25 October 1915. He is commemorated on the Lone Pine Memorial and, at 14 years and 9 months, is said to have been the youngest member of the AIF to die in the First World War.",
+      "src": "https://s3-ap-southeast-2.amazonaws.com/awm-media/collection/REL28919.002/screen/3833920.JPG",
+      "thumbnail": "https://s3-ap-southeast-2.amazonaws.com/awm-media/collection/REL28919.002/screen/3833920.JPG",
+      "link": "https://www.heraldsun.com.au/leader/inner-east/hawthorns-james-martin-brave-beyond-his-years-at-gallipoli/news-story/815474be07c3e5cae7696b43eb2b68cd",
+      "type": "image"
+    },
+    {
+      "date": "1914-05-15",
+      "title": "Medal",
+      "desc": "Bronze medallion showing on the obverse Simpson and his donkey and '1915', surmounted by a Queen's crown. Beneath a laurel wreath and 'ANZAC'. Reverse shows map of Australasia superimposed on the Southern Cross, with fern fronds and an engraved name 'J.MARTIN' beneath.\n\nHistory / Summary\nAssociated with 1553 Private James Martin, 21 Battalion AIF. He enlisted at Hawthorn, Victoria, on 12 April 1915, aged fourteen. Served on Gallipoli, was evacuated suffering from enteric fever, and died of disease at sea on 25 October 1915. He is commemorated on the Lone Pine Memorial and, at 14 years and 9 months, is said to have been the youngest member of the AIF to die in the First World War.\nThe Anzac Medallion was issued by the Australian government in 1967 to surviving Gallipoli veterans or their next of kin, to commemorate the 50th anniversary of the Australian landing at Anzac Cove.",
+      "src": "https://s3-ap-southeast-2.amazonaws.com/awm-media/collection/REL28920/screen/3831396.JPG",
+      "thumbnail": "https://s3-ap-southeast-2.amazonaws.com/awm-media/collection/REL28920/screen/3831396.JPG",
+      "link": "https://www.heraldsun.com.au/leader/inner-east/hawthorns-james-martin-brave-beyond-his-years-at-gallipoli/news-story/815474be07c3e5cae7696b43eb2b68cd",
+      "type": "image"
+    },
+    {
+      "date": "1914-05-15",
+      "title": "Letter and Bible",
+      "desc": "Letter and bible relating to the First World War service of 1553 Private James Martin, 21st Infantry Battalion. In a letter to his parents, Martin, describes the poor weather of the Gallipoli peninsula at the time and receiving food parcels from home. He also mentions the surrender of a Turkish officer and reports of German officers treating Turkish troops harshly, to the point of starvation. This poor treatment is mentioned in several other Australian accounts of the Gallipoli campaign. Also included is Martin's copy of the New Testament presented by the British and Foreign Bible Society of Victoria. He is believed to be the youngest Australian soldier to have been killed in war. \nThis file contains:\nNew Testament belonging to James Martin, 1914;\nLetter from James Martin to his parents, Gallipoli, 9 October [1915].",
+      "src": "https://s3-ap-southeast-2.amazonaws.com/awm-media/collection/RCDIG0000925/screen/6022910.JPG",
+      "thumbnail": "https://s3-ap-southeast-2.amazonaws.com/awm-media/collection/RCDIG0000925/screen/6022910.JPG",
+      "link": "https://www.heraldsun.com.au/leader/inner-east/hawthorns-james-martin-brave-beyond-his-years-at-gallipoli/news-story/815474be07c3e5cae7696b43eb2b68cd",
+      "type": "image"
+    },
+    {
+      "date": "1915-08-21",
+      "title": "Letters and Certificates",
+      "desc": "Letters and certificates relating to the First World War service of Private 1553 James Martin, 21st Infantry Battalion. Believed to be the youngest Australian soldier killed in war, Martin has written several letters to his parents from training camps in Australia and from the trenches at Gallipoli . Also included are letters of condolence to his parents from a fellow 21st Battalion soldier, the legislative representative for his home district of Hawthorn, and the matron who cared for him until his death. Certificates of baptism and commemoration are also included. \nThis file contains:\nLetter from James Martin to his parents, Broadmeadows, 26 May 1915;\nLetter from James Martin to his parents, Seymour, 21 June 1915;\nLetter from James Martin to his parents, Gallipoli, 4 October 1915;\nLetter from Matron F. H. L. Reddoch to the mother of James Martin, at sea, S.S. Glenart Castle, 26 October 1915;\nLetter from Lance Corporal Cecil Joseph Hogan to the mother of James Martin, ANZAC, Gallipoli, 5 November 1915;\nLetter from Sir William Murray McPherson to the parents of James Martin, St. James Park, Hawthorn, 19 November 1915;\nCommemorative certificate, [date unknown];\nCertificate of baptism for James Martin, [date unknown].",
+      "src": "https://s3-ap-southeast-2.amazonaws.com/awm-media/collection/RCDIG0000970/screen/6020674.JPG",
+      "thumbnail": "https://s3-ap-southeast-2.amazonaws.com/awm-media/collection/RCDIG0000970/screen/6020674.JPG",
+      "link": "https://www.heraldsun.com.au/leader/inner-east/hawthorns-james-martin-brave-beyond-his-years-at-gallipoli/news-story/815474be07c3e5cae7696b43eb2b68cd",
+      "type": "image"
+    },
+    {
+      "date": "1915-08-21",
+      "title": "Letter and Card",
+      "desc": "Letter and card relating to the First World War service of Private 1553 James Martin, 21st Infantry Battalion. In the letter to his parents, Martin, writing from Heliopolis, reassures them that he is well and states that he is about to leave for the Dardanelles to fight the Turks. Also included is a condolence card from family friends to his parents. This file contains:\nLetter from James Martin to his parents, Heliopolis, 26 August 1915;\nCondolence card from Mr. and Mrs. Gibbons to the parents of James Martin, [date unknown];",
+      "src": "https://s3-ap-southeast-2.amazonaws.com/awm-media/collection/RCDIG0000971/screen/6020686.JPG",
+      "thumbnail": "https://s3-ap-southeast-2.amazonaws.com/awm-media/collection/RCDIG0000971/screen/6020686.JPG",
+      "link": "https://www.heraldsun.com.au/leader/inner-east/hawthorns-james-martin-brave-beyond-his-years-at-gallipoli/news-story/815474be07c3e5cae7696b43eb2b68cd",
+      "type": "image"
+    },
+    {
+      "date": "1915-08-21",
+      "title": "Newspaper Cuttings",
+      "desc": "Newspaper cuttings relating to the First World War service of 1553 Private James Charles Martin, 21st Battalion. These cuttings relate to the torpedoing of the troop transport Southland in September 1915 whilst en route from Egypt to Gallipoli, and also the death of Martin in October of that year. This file contains:\nNewspaper cutting titled ‘The transport Southland is torpedoed but reaches port in safety’, The Daily Mirror, 22 November 1915;\nNewspaper cutting containing illustration of transport Southland with caption ‘The transport Southland, formerly the well-known Antwerp Liner Vaterland, which was torpedoed while conveying Australian and New Zealand troops to Gallipoli’, The Argus, 23 November 1915;\nNewspaper cutting titled ‘Youngest soldier dies’, The Herald, 18 December 1915;\nNewspaper cutting titled ‘A grand sight! I never felt prouder of the boys!’, The Herald, 12 December 1916.",
+      "src": "https://s3-ap-southeast-2.amazonaws.com/awm-media/collection/RCDIG0001457/screen/6139888.JPG",
+      "thumbnail": "https://s3-ap-southeast-2.amazonaws.com/awm-media/collection/RCDIG0001457/screen/6139888.JPG",
+      "link": "https://www.heraldsun.com.au/leader/inner-east/hawthorns-james-martin-brave-beyond-his-years-at-gallipoli/news-story/815474be07c3e5cae7696b43eb2b68cd",
+      "type": "image"
+    }
+  ]
+}

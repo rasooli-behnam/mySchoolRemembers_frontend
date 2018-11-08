@@ -9,7 +9,7 @@ import { timelineChanged, TimelineChangedAction } from "src/actions";
 const theComponentWithStyles = withStyles(styles)(theComponent);
 
 const mapAppStateToProps = (appState: AppState) => ({
-  dates: appState.activeProfile.events.map(e => e.Date),
+  dates: appState.activeProfile.events.map(e => e.date),
   isDisabled: appState.timelineState.isDisabled
 });
 

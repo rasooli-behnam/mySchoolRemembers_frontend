@@ -10,7 +10,7 @@ export default class Map extends React.Component<Props, State> {
   constructor(props: Props) {
     super(props);
 
-    const initialCoordinates = parseCoordinates(props.currentEvent.Coordinates);
+    const initialCoordinates = parseCoordinates(props.currentEvent.coords);
 
     this.state = {
       viewport: {
@@ -44,7 +44,7 @@ export default class Map extends React.Component<Props, State> {
 
   handleRedraw = (data: HTMLRedrawOptions) => {
     const { openMultimediaComponent } = this.props;
-    const { Date, Image, Name } = this.props.currentEvent;
+    const { date, image, name } = this.props.currentEvent;
     const [x, y] = data.project([
       this.state.marker.longitude,
       this.state.marker.latitude
@@ -52,18 +52,16 @@ export default class Map extends React.Component<Props, State> {
 
     return (
       <Marker
-        image={Image}
-        onClick={() => openMultimediaComponent({ date: Date })}
+        image={image}
+        onClick={() => openMultimediaComponent({ date: date })}
         position={{ x: x, y: y }}
-        title={Name}
+        title={name}
       />
     );
   };
 
   handleTimelineChange = () => {
-    const newCoordinates = parseCoordinates(
-      this.props.currentEvent.Coordinates
-    );
+    const newCoordinates = parseCoordinates(this.props.currentEvent.coords);
     this.props.mapStartedToFly();
     this.flyToNewDestination(newCoordinates);
   };
