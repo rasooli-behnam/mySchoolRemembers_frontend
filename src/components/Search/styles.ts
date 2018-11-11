@@ -10,9 +10,13 @@ const styles = createStyles({
     height: window.innerHeight - containerMargin,
     width: window.innerWidth - containerMargin
   },
-  markerButton: {
+  popoverText: {
+    textAlign: "center",
+    margin: "5px 0 10px"
+  },
+  popoverButton: {
     backgroundColor: "#fcf79c",
-    fontWeight: "bold"
+    margin: "10px 60px"
   }
 });
 

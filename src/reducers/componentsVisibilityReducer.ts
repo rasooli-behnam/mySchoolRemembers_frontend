@@ -19,6 +19,8 @@ export default function(
       return { ...prevState.componentsVisibility, isSearchOpen: true };
     case constants.CLOSE_SEARCH_COMPONENT:
       return { ...prevState.componentsVisibility, isSearchOpen: false };
+    case `${constants.GET_ACTIVE_PROFILE}_FULFILLED`:
+      return { ...prevState.componentsVisibility, isSearchOpen: false };
   }
 
   return prevState && prevState.componentsVisibility
