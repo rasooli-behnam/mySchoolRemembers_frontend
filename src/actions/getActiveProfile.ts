@@ -9,7 +9,9 @@ export interface GetActiveProfileAction extends Action<string> {
 export default function getActiveProfile(
   reg_no: string
 ): GetActiveProfileAction {
-  const request = axios.get(`http://localhost:8080/api/profiles/${reg_no}`);
+  const request = axios.get(
+    `http://my-school-remembers-backend.appspot.com/api/profiles/${reg_no}`
+  );
   console.log(request);
   return {
     type: constants.GET_ACTIVE_PROFILE,
