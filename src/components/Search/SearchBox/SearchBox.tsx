@@ -19,6 +19,7 @@ export default class SearchBox extends React.Component<Props, State> {
   handleFormSubmit = (event: React.FormEvent<HTMLFormElement>) => {
     event.preventDefault();
     const { searchCategory, searchTerm } = this.state;
+    this.props.getProfiles(searchCategory, searchTerm);
   };
 
   handleSearchCategoryChange = (event: React.ChangeEvent<HTMLInputElement>) => {
@@ -79,4 +80,4 @@ export default class SearchBox extends React.Component<Props, State> {
   }
 }
 
-const catergories = ["name", "city", "state", "postcode"];
+const catergories = ["city", "postcode"];

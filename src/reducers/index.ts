@@ -21,7 +21,7 @@ export default function combineReducers(
     currentEventIndex: currentEventReducer(appState, action),
     timelineState: timelineStateReducer(appState, action),
     multimedias: multimediasReducer(appState, action),
-    profiles: profilesReducer()
+    profiles: profilesReducer(appState, action)
   };
 }
 

@@ -97,6 +97,7 @@ export default class Search extends React.Component<Props, State> {
               </Button>
             </Popover>
           </ReactMapGL>
+          <SearchBox />
         </div>
       </Modal>
     );

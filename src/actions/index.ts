@@ -1,4 +1,5 @@
 import getActiveProfile, { GetActiveProfileAction } from "./getActiveProfile";
+import getProfiles, { GetProfilesAction } from "./getProfiles";
 import timelineChanged, { TimelineChangedAction } from "./timelineChanged";
 import {
   closeBiographyComponent,
@@ -20,6 +21,8 @@ import { mapActions, mapStartedToFly, mapStoppedFlying } from "./mapActions";
 export {
   getActiveProfile,
   GetActiveProfileAction,
+  getProfiles,
+  GetProfilesAction,
   timelineChanged,
   TimelineChangedAction,
   closeBiographyComponent,
