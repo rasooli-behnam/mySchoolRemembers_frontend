@@ -10,7 +10,7 @@ const theComponentWithStyles = withStyles(styles)(theComponent);
 
 const mapAppStateToProps = (appState: AppState) => ({
   isOpen: appState.componentsVisibility.isSearchOpen,
-  initialCoordinates: appState.activeProfile.bio.coords,
+  center: appState.searchMapCenter,
   profiles: appState.profiles
 });
 

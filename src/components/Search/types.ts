@@ -8,7 +8,7 @@ import { WithStyles } from "@material-ui/core";
 
 export interface Props extends WithStyles<typeof styles> {
   isOpen: boolean;
-  initialCoordinates: Coordinates;
+  center: Coordinates;
   profiles: AppState["profiles"];
   closeComponent: typeof closeSearchComponent;
   getActiveProfile: typeof getActiveProfile;
@@ -16,6 +16,7 @@ export interface Props extends WithStyles<typeof styles> {
 
 export interface State {
   popoverAnchorEl: HTMLElement | null;
+  prevCenter: Coordinates;
   profile: Profile;
   viewport: Viewport;
 }

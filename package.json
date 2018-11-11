@@ -16,6 +16,7 @@
     "d3-ease": "^1.0.5",
     "lodash.clonedeep": "^4.5.0",
     "lodash.sortby": "^4.7.0",
+    "mapbox-geocoding": "^0.1.5",
     "rc-slider": "^8.6.3",
     "react": "^16.5.2",
     "react-dom": "^16.5.2",

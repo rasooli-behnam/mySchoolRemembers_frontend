@@ -19,6 +19,7 @@ export default class SearchBox extends React.Component<Props, State> {
   handleFormSubmit = (event: React.FormEvent<HTMLFormElement>) => {
     event.preventDefault();
     const { searchCategory, searchTerm } = this.state;
+    this.props.getMapNewCenter(searchTerm);
     this.props.getProfiles(searchCategory, searchTerm);
   };
 

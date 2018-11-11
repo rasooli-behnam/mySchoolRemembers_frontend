@@ -1,5 +1,6 @@
 import getActiveProfile, { GetActiveProfileAction } from "./getActiveProfile";
 import getProfiles, { GetProfilesAction } from "./getProfiles";
+import getSearchMapNewCenter, { GetSearchMapNewCenterAction } from "./getSearchMapNewCenter";
 import timelineChanged, { TimelineChangedAction } from "./timelineChanged";
 import {
   closeBiographyComponent,
@@ -21,6 +22,8 @@ import { mapActions, mapStartedToFly, mapStoppedFlying } from "./mapActions";
 export {
   getActiveProfile,
   GetActiveProfileAction,
+  getSearchMapNewCenter,
+  GetSearchMapNewCenterAction,
   getProfiles,
   GetProfilesAction,
   timelineChanged,

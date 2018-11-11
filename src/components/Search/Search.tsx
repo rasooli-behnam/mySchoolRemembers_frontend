@@ -1,7 +1,8 @@
 import * as React from "react";
+import Coordinates from "src/dataTypes/Coordinates";
 import Profile from "src/dataTypes/Profile";
 import ProfileMarker from "./ProfileMarker";
-import ReactMapGL from "react-map-gl";
+import ReactMapGL, { FlyToInterpolator } from "react-map-gl";
 import SearchBox from "./SearchBox";
 import {
   Button,
@@ -10,20 +11,22 @@ import {
   Typography
   } from "@material-ui/core";
 import { containerMargin } from "./styles";
+import { easeCubic } from "d3-ease";
 import { Props, State } from "./types";
 
 export default class Search extends React.Component<Props, State> {
   constructor(props: Props) {
     super(props);
 
-    const initialCoordinates = this.props.initialCoordinates;
+    const center = this.props.center;
 
     this.state = {
       popoverAnchorEl: null,
+      prevCenter: this.props.center,
       profile: this.props.profiles[0],
       viewport: {
-        latitude: initialCoordinates.lat,
-        longitude: initialCoordinates.lon,
+        latitude: center.lat,
+        longitude: center.lon,
         zoom: 14
       }
     };
@@ -45,9 +48,30 @@ export default class Search extends React.Component<Props, State> {
     this.setState({ popoverAnchorEl: null });
   };
 
+  flyToNewDestination = (coordinates: Coordinates) => {
+    const viewport = {
+      ...this.state.viewport,
+      latitude: coordinates.lat,
+      longitude: coordinates.lon,
+      transitionDuration: 5000,
+      transitionInterpolator: new FlyToInterpolator(),
+      transitionEasing: easeCubic
+    };
+
+    this.setState({ viewport });
+  };
+
+  handleNewCenter = () => {
+    const { center } = this.props;
+    this.flyToNewDestination(center);
+    this.setState({ prevCenter: center });
+  };
+
   public render() {
-    const { classes, isOpen, profiles, closeComponent } = this.props;
-    const { popoverAnchorEl, profile, viewport } = this.state;
+    const { classes, isOpen, center, profiles, closeComponent } = this.props;
+    const { popoverAnchorEl, prevCenter, profile, viewport } = this.state;
+
+    if (center !== prevCenter) this.handleNewCenter();
 
     return (
       <Modal open={isOpen} onClose={closeComponent}>
