@@ -22,7 +22,7 @@ class BiographyTable extends React.Component<Props> {
               </TableCell>
               <TableCell>
                 <h1>{bio.name}</h1>
-                <h2>{bio.reg_no}</h2>
+                <h2>reg_no: {bio.reg_no}</h2>
                 <h3>{bio.summary}</h3>
               </TableCell>
             </TableRow>
@@ -33,7 +33,13 @@ class BiographyTable extends React.Component<Props> {
           </TableHead>
           <TableBody>
             {Object.keys(bio)
-              .filter(k => k !== "photo" && k !== "coords")
+              .filter(
+                k =>
+                  k !== "name" &&
+                  k !== "reg_no" &&
+                  k !== "photo" &&
+                  k !== "coords"
+              )
               .map(k => {
                 return (
                   <TableRow key={k}>
