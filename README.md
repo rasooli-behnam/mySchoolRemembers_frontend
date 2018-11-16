@@ -7,3 +7,5 @@ I'm using the following technologies:
 - Redux
 - Material-UI
 - Typescript
+
+It has two main presentations, single mode and split-screen mode
