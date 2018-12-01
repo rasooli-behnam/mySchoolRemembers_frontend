@@ -1,40 +1,38 @@
 import * as React from "react";
-import Lightbox from "react-images";
+import {
+  Card,
+  CardActionArea,
+  CardContent,
+  CardMedia,
+  Paper,
+  Typography
+  } from "@material-ui/core";
 import { Props, State } from "./types";
 
 export default class Multimedia extends React.Component<Props, State> {
-  constructor(props: Props) {
-    super(props);
-
-    this.state = {
-      photoIndex: 0
-    };
-  }
-
-  mapMultimediasToUsableItems = () => {
-    return this.props.multimedias.map(m => ({
-      src: m.src,
-      caption: m.desc,
-      alt: m.title
-    }));
-  };
-
   public render() {
-    const { isOpen, closeComponent } = this.props;
-    let { photoIndex } = this.state;
-    const images = this.mapMultimediasToUsableItems();
-
-    if (photoIndex >= images.length) photoIndex = 0;
+    const { classes, isOpen, closeComponent, multimedias } = this.props;
+    console.log(multimedias);
 
     return (
-      <Lightbox
-        currentImage={photoIndex}
-        images={images}
-        isOpen={isOpen}
-        onClickPrev={() => this.setState({ photoIndex: photoIndex - 1 })}
-        onClickNext={() => this.setState({ photoIndex: photoIndex + 1 })}
-        onClose={closeComponent}
-      />
+      <Paper className={classes.root}>
+        {multimedias.map((m, i) => {
+          return (
+            <Card key={i}>
+              <CardActionArea>
+                <CardMedia
+                  className={classes.cardMedia}
+                  image={m.src}
+                  title={m.title}
+                />
+                <CardContent>
+                  <Typography component="p">{m.title}</Typography>
+                </CardContent>
+              </CardActionArea>
+            </Card>
+          );
+        })}
+      </Paper>
     );
   }
 }
