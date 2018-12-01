@@ -5,6 +5,7 @@
   "dependencies": {
     "@material-ui/core": "^3.4.0",
     "@types/d3-ease": "^1.0.7",
+    "@types/immutable": "^3.8.7",
     "@types/lodash.clonedeep": "^4.5.4",
     "@types/lodash.sortby": "^4.7.4",
     "@types/rc-slider": "^8.6.0",
@@ -14,6 +15,7 @@
     "@types/redux-promise-middleware": "0.0.11",
     "axios": "^0.18.0",
     "d3-ease": "^1.0.5",
+    "immutable": "^4.0.0-rc.12",
     "lodash.clonedeep": "^4.5.0",
     "lodash.sortby": "^4.7.0",
     "mapbox-geocoding": "^0.1.5",

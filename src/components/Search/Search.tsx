@@ -1,8 +1,9 @@
 import * as React from "react";
 import Coordinates from "src/dataTypes/Coordinates";
+import mapStyle from "./map_style";
 import Profile from "src/dataTypes/Profile";
 import ProfileMarker from "./ProfileMarker";
-import ReactMapGL, { FlyToInterpolator } from "react-map-gl";
+import ReactMapGL, { FlyToInterpolator, LinearInterpolator, MapEvent } from "react-map-gl";
 import SearchBox from "./SearchBox";
 import {
   Button,
@@ -12,6 +13,7 @@ import {
   } from "@material-ui/core";
 import { containerMargin } from "./styles";
 import { easeCubic } from "d3-ease";
+import { fromJS } from "immutable";
 import { Props, State } from "./types";
 
 export default class Search extends React.Component<Props, State> {
@@ -27,7 +29,7 @@ export default class Search extends React.Component<Props, State> {
       viewport: {
         latitude: center.lat,
         longitude: center.lon,
-        zoom: 14
+        zoom: 10
       }
     };
   }
@@ -67,6 +69,33 @@ export default class Search extends React.Component<Props, State> {
     this.setState({ prevCenter: center });
   };
 
+  handleMapClick = (event: MapEvent) => {
+    const { features, lngLat } = event;
+    if (features) {
+      features.find((f: any) => f.layer.id === "clusters") &&
+        this.handleClusterClick(lngLat, this.state.viewport.zoom + 1);
+
+      const unclusteredPoint = features.find(
+        (f: any) => f.layer.id === "unclustered-point"
+      );
+      unclusteredPoint && console.log(unclusteredPoint["properties"]);
+    }
+  };
+
+  handleClusterClick = (lngLat: [number, number], zoom: number) => {
+    const viewport = {
+      ...this.state.viewport,
+      longitude: lngLat[0],
+      latitude: lngLat[1],
+      zoom: zoom,
+      transitionDuration: 1000,
+      transitionInterpolator: new LinearInterpolator(),
+      transitionEasing: easeCubic
+    };
+
+    this.setState({ viewport });
+  };
+
   public render() {
     const { classes, isOpen, center, profiles, closeComponent } = this.props;
     const { popoverAnchorEl, prevCenter, profile, viewport } = this.state;
@@ -79,19 +108,16 @@ export default class Search extends React.Component<Props, State> {
           <ReactMapGL
             // mapboxApiAccessToken={process.env.REACT_APP_MapboxAccessToken}
             mapboxApiAccessToken={
-              "pk.eyJ1IjoicmFzb29saS1iZWhuYW0iLCJhIjoiY2psaDl5ajd6MHVmbTNrcGtiY3VxZGQ5diJ9.qars2_NNloH9bcNMUEfHBA"
+              "pk.eyJ1IjoicmFzb29saS1iZWhuYW0iLCJhIjoiY2pvcndhcGd1MGs2ODNxa3dnY3BnMzJlbCJ9.dcOe-6711p3jlowtY2IuFg"
             }
             {...mapDefaultAttributes}
             {...viewport}
             onViewportChange={viewport => {
               this.setState({ viewport });
             }}
+            mapStyle={mapStyle}
+            onClick={this.handleMapClick}
           >
-            {profiles.map(p => {
-              return (
-                <ProfileMarker onClick={this.handleMarkerClick} profile={p} />
-              );
-            })}
             <Popover
               open={Boolean(popoverAnchorEl)}
               anchorEl={popoverAnchorEl}
