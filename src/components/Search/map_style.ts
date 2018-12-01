@@ -577,6 +577,7 @@ const mapBaseStyle = fromJS({
       }
     },
     {
+      interactive: true,
       id: "cluster-count",
       type: "symbol",
       source: "profiles",
@@ -590,14 +591,16 @@ const mapBaseStyle = fromJS({
     {
       interactive: true,
       id: "unclustered-point",
-      type: "circle",
+      type: "symbol",
       source: "profiles",
       filter: ["!has", "point_count"],
+      layout: {
+        "text-field": ["get", "name"],
+        "text-font": ["DIN Offc Pro Medium", "Arial Unicode MS Bold"],
+        "text-size": 12
+      },
       paint: {
-        "circle-color": "#11b4da",
-        "circle-radius": 10,
-        "circle-stroke-width": 1,
-        "circle-stroke-color": "#fff"
+        "text-color": "#f79f11"
       }
     }
   ]

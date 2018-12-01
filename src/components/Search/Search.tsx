@@ -16,6 +16,8 @@ import { easeCubic } from "d3-ease";
 import { fromJS } from "immutable";
 import { Props, State } from "./types";
 
+
+
 export default class Search extends React.Component<Props, State> {
   constructor(props: Props) {
     super(props);
@@ -72,8 +74,9 @@ export default class Search extends React.Component<Props, State> {
   handleMapClick = (event: MapEvent) => {
     const { features, lngLat } = event;
     if (features) {
-      features.find((f: any) => f.layer.id === "clusters") &&
-        this.handleClusterClick(lngLat, this.state.viewport.zoom + 1);
+      features.find(
+        (f: any) => f.layer.id === "clusters" || f.layer.id === "cluster-count"
+      ) && this.handleClusterClick(lngLat, this.state.viewport.zoom + 1);
 
       const unclusteredPoint = features.find(
         (f: any) => f.layer.id === "unclustered-point"
