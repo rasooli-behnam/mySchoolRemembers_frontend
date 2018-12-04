@@ -109,10 +109,7 @@ export default class Search extends React.Component<Props, State> {
       <Modal open={isOpen} onClose={closeComponent}>
         <div className={classes.root}>
           <ReactMapGL
-            // mapboxApiAccessToken={process.env.REACT_APP_MapboxAccessToken}
-            mapboxApiAccessToken={
-              "pk.eyJ1IjoicmFzb29saS1iZWhuYW0iLCJhIjoiY2pvcndhcGd1MGs2ODNxa3dnY3BnMzJlbCJ9.dcOe-6711p3jlowtY2IuFg"
-            }
+            mapboxApiAccessToken={process.env.REACT_APP_MapboxAccessToken}
             {...mapDefaultAttributes}
             {...viewport}
             onViewportChange={viewport => {

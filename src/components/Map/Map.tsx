@@ -5,6 +5,8 @@ import ReactMapGL, { FlyToInterpolator, HTMLOverlay, HTMLRedrawOptions } from "r
 import { easeCubic } from "d3-ease";
 import { Props, State } from "./types";
 
+
+
 export default class Map extends React.Component<Props, State> {
   constructor(props: Props) {
     super(props);
@@ -70,14 +72,10 @@ export default class Map extends React.Component<Props, State> {
 
     return (
       <ReactMapGL
-        // mapboxApiAccessToken={process.env.REACT_APP_MapboxAccessToken}
-        mapboxApiAccessToken={
-          "pk.eyJ1IjoicmFzb29saS1iZWhuYW0iLCJhIjoiY2psaDl5ajd6MHVmbTNrcGtiY3VxZGQ5diJ9.qars2_NNloH9bcNMUEfHBA"
-        }
+        mapboxApiAccessToken={process.env.REACT_APP_MapboxAccessToken}
         {...mapDefaultAttributes}
         {...this.state.viewport}
-        // mapStyle={process.env.REACT_APP_MapboxMapStyleLink}
-        mapStyle={"mapbox://styles/rasooli-behnam/cjlhd40vz03bm2rofi78mrqq1"}
+        mapStyle={process.env.REACT_APP_MapboxMapStyleLink}
         onViewportChange={viewport => {
           this.setState({ viewport });
         }}
