@@ -7,7 +7,10 @@ import {
   Paper,
   Typography
   } from "@material-ui/core";
+import { containerWidth } from "./styles";
 import { Props, State } from "./types";
+
+
 
 export default class Multimedia extends React.Component<Props, State> {
   public render() {
@@ -20,10 +23,16 @@ export default class Multimedia extends React.Component<Props, State> {
           return (
             <Card key={i}>
               <CardActionArea>
-                <CardMedia
-                  className={classes.cardMedia}
-                  image={m.src}
-                  title={m.title}
+                <img
+                  src={m.src}
+                  alt={m.title}
+                  style={{
+                    maxWidth: containerWidth,
+                    position: "relative",
+                    left: 0,
+                    right: 0,
+                    margin: "auto"
+                  }}
                 />
                 <CardContent>
                   <Typography component="p">{m.title}</Typography>

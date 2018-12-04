@@ -1,8 +1,8 @@
 import { createStyles } from "@material-ui/core";
 
 const containerMargin = 10;
-const width = window.innerWidth - containerMargin * 2;
-const maxWidth = 700;
+const windowWidth = window.innerWidth;
+export const containerWidth = windowWidth / (windowWidth > 800 ? 2 : 1.5);
 
 const styles = createStyles({
   root: {
@@ -10,14 +10,8 @@ const styles = createStyles({
     top: containerMargin,
     right: containerMargin,
     maxHeight: window.innerHeight - containerMargin * 2,
-    width: width,
-    maxWidth: maxWidth,
+    width: containerWidth,
     overflowY: "auto"
-  },
-  cardMedia: {
-    height: 800,
-    width: width,
-    maxWidth: maxWidth
   }
 });
 
