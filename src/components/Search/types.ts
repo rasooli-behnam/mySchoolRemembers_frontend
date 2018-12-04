@@ -6,10 +6,10 @@ import { closeSearchComponent, getActiveProfile } from "src/actions";
 import { Viewport } from "react-map-gl";
 import { WithStyles } from "@material-ui/core";
 
+
 export interface Props extends WithStyles<typeof styles> {
   isOpen: boolean;
   center: Coordinates;
-  profiles: AppState["profiles"];
   closeComponent: typeof closeSearchComponent;
   getActiveProfile: typeof getActiveProfile;
 }

@@ -7,8 +7,6 @@ import Event from "src/dataTypes/Event";
 import ExternalResource from "src/dataTypes/ExternalResource";
 import Multimedia from "src/dataTypes/Multimedia";
 import multimediasReducer from "./multimediasReducer";
-import Profile from "src/dataTypes/Profile";
-import profilesReducer from "./profilesReducer";
 import searchMapCenterReducer from "./searchMapCenterReducer";
 import timelineStateReducer from "./timelineStateReducer";
 
@@ -22,8 +20,7 @@ export default function combineReducers(
     currentEventIndex: currentEventReducer(appState, action),
     searchMapCenter: searchMapCenterReducer(appState, action),
     timelineState: timelineStateReducer(appState, action),
-    multimedias: multimediasReducer(appState, action),
-    profiles: profilesReducer(appState, action)
+    multimedias: multimediasReducer(appState, action)
   };
 }
 
@@ -46,5 +43,4 @@ export interface AppState {
     isDisabled: boolean;
   };
   multimedias: Multimedia[];
-  profiles: Profile[];
 }

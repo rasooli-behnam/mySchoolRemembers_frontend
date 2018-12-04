@@ -6,12 +6,12 @@ import { closeSearchComponent, getActiveProfile } from "src/actions";
 import { connect } from "react-redux";
 import { Dispatch } from "redux";
 
+
 const theComponentWithStyles = withStyles(styles)(theComponent);
 
 const mapAppStateToProps = (appState: AppState) => ({
   isOpen: appState.componentsVisibility.isSearchOpen,
-  center: appState.searchMapCenter,
-  profiles: appState.profiles
+  center: appState.searchMapCenter
 });
 
 const mapDispatchToProps = (dispatch: Dispatch) => ({
