@@ -2,7 +2,6 @@ import activeProfileReducer from "./activeProfileReducer";
 import Bio from "src/dataTypes/Bio";
 import componentsVisibilityReducer from "./componentsVisibilityReducer";
 import Coordinates from "src/dataTypes/Coordinates";
-import CurrentEvent from "src/dataTypes/CurrentEvent";
 import currentEventReducer from "./currentEventReducer";
 import Event from "src/dataTypes/Events";
 import ExternalResource from "src/dataTypes/ExternalResource";

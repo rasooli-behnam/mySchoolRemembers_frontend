@@ -1,7 +1,12 @@
 import * as React from "react";
 import Coordinates from "src/dataTypes/Coordinates";
-import Marker from "./Marker";
-import ReactMapGL, { FlyToInterpolator, HTMLOverlay, HTMLRedrawOptions } from "react-map-gl";
+import mapMarker from "src/mapMarker.png";
+import ReactMapGL, {
+  FlyToInterpolator,
+  HTMLOverlay,
+  HTMLRedrawOptions,
+  Marker
+  } from "react-map-gl";
 import { easeCubic } from "d3-ease";
 import { Props, State } from "./types";
 
@@ -43,24 +48,6 @@ export default class Map extends React.Component<Props, State> {
     this.setState({ viewport, marker });
   };
 
-  handleRedraw = (data: HTMLRedrawOptions) => {
-    const { openMultimediaComponent } = this.props;
-    const { date, image, name } = this.props.currentEvent;
-    const [x, y] = data.project([
-      this.state.marker.longitude,
-      this.state.marker.latitude
-    ]);
-
-    return (
-      <Marker
-        image={image}
-        onClick={() => openMultimediaComponent({ date: date })}
-        position={{ x: x, y: y }}
-        title={name}
-      />
-    );
-  };
-
   handleTimelineChange = () => {
     const newCoordinates = this.props.currentEvent.coords;
     this.props.mapStartedToFly();
@@ -69,6 +56,8 @@ export default class Map extends React.Component<Props, State> {
 
   public render() {
     if (this.props.isTimelineChanged) this.handleTimelineChange();
+
+    const { longitude, latitude } = this.state.marker;
 
     return (
       <ReactMapGL
@@ -81,7 +70,14 @@ export default class Map extends React.Component<Props, State> {
         }}
         onTransitionEnd={() => this.props.mapStoppedFlying()}
       >
-        <HTMLOverlay captureClick redraw={this.handleRedraw} />
+        <Marker
+          longitude={longitude}
+          latitude={latitude}
+          offsetLeft={-16}
+          offsetTop={-32}
+        >
+          <img src={mapMarker} height={32} width={32} />
+        </Marker>
       </ReactMapGL>
     );
   }
@@ -91,7 +87,7 @@ const mapDefaultAttributes = {
   width: window.innerWidth,
   height: window.innerHeight,
   scrollZoom: false,
-  dragPan: false,
+  dragPan: true,
   dragRotate: false,
   doubleClickZoom: false,
   touchZoom: false
