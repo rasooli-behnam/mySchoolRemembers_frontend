@@ -1,6 +1,6 @@
 import * as React from "react";
 import Coordinates from "src/dataTypes/Coordinates";
-import mapStyle from "./map_style";
+import mapStyle from "./mapStyle";
 import Profile from "src/dataTypes/Profile";
 import ProfileMarker from "./ProfileMarker";
 import ReactMapGL, { FlyToInterpolator, LinearInterpolator, MapEvent } from "react-map-gl";
