@@ -3,7 +3,7 @@ import Bio from "src/dataTypes/Bio";
 import componentsVisibilityReducer from "./componentsVisibilityReducer";
 import Coordinates from "src/dataTypes/Coordinates";
 import currentEventReducer from "./currentEventReducer";
-import Event from "src/dataTypes/Events";
+import Event from "src/dataTypes/Event";
 import ExternalResource from "src/dataTypes/ExternalResource";
 import Multimedia from "src/dataTypes/Multimedia";
 import multimediasReducer from "./multimediasReducer";

@@ -1,4 +1,4 @@
-import Event from "src/dataTypes/Events";
+import Event from "src/dataTypes/Event";
 import { mapStartedToFly, mapStoppedFlying, openMultimediaComponent } from "src/actions";
 import { Viewport } from "react-map-gl";
 

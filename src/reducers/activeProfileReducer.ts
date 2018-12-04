@@ -1,10 +1,11 @@
 import * as constants from "src/constants";
 import * as profile from "src/sampleData/profile.json";
-import Event from "src/dataTypes/Events";
+import Event from "src/dataTypes/Event";
 import Multimedia from "src/dataTypes/Multimedia";
 import { AppState } from ".";
 import { GetActiveProfileAction } from "src/actions";
 import { reformatDate } from "src/utils";
+
 const sortBy = require("lodash.sortby");
 
 export default function(prevState: AppState, action: GetActiveProfileAction) {

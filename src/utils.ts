@@ -1,5 +1,4 @@
 import Coordinates from "./dataTypes/Coordinates";
-import Event from "./dataTypes/Events";
 
 export function reformatDate(date: string) {
   return new Date(date)
