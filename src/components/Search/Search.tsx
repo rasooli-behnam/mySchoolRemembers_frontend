@@ -2,7 +2,6 @@ import * as React from "react";
 import Coordinates from "src/dataTypes/Coordinates";
 import mapStyle from "./mapStyle";
 import Profile from "src/dataTypes/Profile";
-import ProfileMarker from "./ProfileMarker";
 import ReactMapGL, { FlyToInterpolator, LinearInterpolator, MapEvent } from "react-map-gl";
 import SearchBox from "./SearchBox";
 import {
@@ -25,9 +24,10 @@ export default class Search extends React.Component<Props, State> {
     const center = this.props.center;
 
     this.state = {
-      popoverAnchorEl: null,
+      isPopoverOpen: false,
+      popoverAnchorPosition: { x: 0, y: 0 },
       prevCenter: this.props.center,
-      profile: this.props.profiles[0],
+      profile: initialProfile,
       viewport: {
         latitude: center.lat,
         longitude: center.lon,
@@ -36,20 +36,13 @@ export default class Search extends React.Component<Props, State> {
     };
   }
 
-  handleMarkerClick = (
-    markerElement: HTMLElement,
-    selectedProfile: Profile
-  ) => {
-    this.setState({ popoverAnchorEl: markerElement, profile: selectedProfile });
-  };
-
   handlePopoverClose = () => {
-    this.setState({ popoverAnchorEl: null });
+    this.setState({ isPopoverOpen: false });
   };
 
   loadProfile = (reg_no: string) => {
     this.props.getActiveProfile(reg_no);
-    this.setState({ popoverAnchorEl: null });
+    this.setState({ isPopoverOpen: false });
   };
 
   flyToNewDestination = (coordinates: Coordinates) => {
@@ -71,7 +64,8 @@ export default class Search extends React.Component<Props, State> {
     this.setState({ prevCenter: center });
   };
 
-  handleMapClick = (event: MapEvent) => {
+  handleMapClick = (event: any) => {
+    console.log(event);
     const { features, lngLat } = event;
     if (features) {
       features.find(
@@ -81,7 +75,17 @@ export default class Search extends React.Component<Props, State> {
       const unclusteredPoint = features.find(
         (f: any) => f.layer.id === "unclustered-point"
       );
-      unclusteredPoint && console.log(unclusteredPoint["properties"]);
+      if (unclusteredPoint) {
+        const { available, reg_no, name, battalion } = unclusteredPoint[
+          "properties"
+        ];
+        this.handleProfileClick(event.center, {
+          available,
+          reg_no,
+          name,
+          battalion
+        });
+      }
     }
   };
 
@@ -99,9 +103,26 @@ export default class Search extends React.Component<Props, State> {
     this.setState({ viewport });
   };
 
+  handleProfileClick = (
+    markerCenter: { x: number; y: number },
+    selectedProfile: Profile
+  ) => {
+    this.setState({
+      isPopoverOpen: true,
+      popoverAnchorPosition: markerCenter,
+      profile: selectedProfile
+    });
+  };
+
   public render() {
-    const { classes, isOpen, center, profiles, closeComponent } = this.props;
-    const { popoverAnchorEl, prevCenter, profile, viewport } = this.state;
+    const { classes, isOpen, center, closeComponent } = this.props;
+    const {
+      isPopoverOpen,
+      popoverAnchorPosition,
+      prevCenter,
+      profile,
+      viewport
+    } = this.state;
 
     if (center !== prevCenter) this.handleNewCenter();
 
@@ -119,8 +140,12 @@ export default class Search extends React.Component<Props, State> {
             onClick={this.handleMapClick}
           >
             <Popover
-              open={Boolean(popoverAnchorEl)}
-              anchorEl={popoverAnchorEl}
+              open={isPopoverOpen}
+              anchorReference="anchorPosition"
+              anchorPosition={{
+                top: popoverAnchorPosition.y,
+                left: popoverAnchorPosition.x
+              }}
               onClose={this.handlePopoverClose}
               anchorOrigin={{
                 vertical: "top",
@@ -133,8 +158,9 @@ export default class Search extends React.Component<Props, State> {
             >
               <Typography className={classes.popoverText}>
                 {profile.name}
-              </Typography>
-              <Typography className={classes.popoverText}>
+                <br />
+                {profile.battalion}
+                <br />
                 (reg_no: {profile.reg_no})
               </Typography>
               <Button
@@ -158,4 +184,11 @@ const mapDefaultAttributes = {
   width: window.innerWidth - containerMargin,
   height: window.innerHeight - containerMargin,
   dragRotate: false
+};
+
+const initialProfile = {
+  available: false,
+  reg_no: "",
+  name: "",
+  battalion: ""
 };

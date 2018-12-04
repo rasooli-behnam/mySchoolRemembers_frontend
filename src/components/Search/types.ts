@@ -15,7 +15,8 @@ export interface Props extends WithStyles<typeof styles> {
 }
 
 export interface State {
-  popoverAnchorEl: HTMLElement | null;
+  isPopoverOpen: boolean;
+  popoverAnchorPosition: { x: number; y: number };
   prevCenter: Coordinates;
   profile: Profile;
   viewport: Viewport;

@@ -12,7 +12,9 @@ const styles = createStyles({
   },
   popoverText: {
     textAlign: "center",
-    margin: "5px 0 10px"
+    margin: "5px auto 10px",
+    width: 240,
+    overflowWrap: "break-word"
   },
   popoverButton: {
     backgroundColor: "#fcf79c",
