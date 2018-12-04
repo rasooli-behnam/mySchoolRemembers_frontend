@@ -596,65 +596,14 @@ const mapBaseStyle = fromJS({
       filter: ["!has", "point_count"],
       layout: {
         "text-field": ["get", "name"],
-        "text-font": ["DIN Offc Pro Medium", "Arial Unicode MS Bold"],
+        "text-font": ["Roboto Black", "Arial Unicode MS Bold"],
         "text-size": 12
       },
       paint: {
-        "text-color": "#f79f11"
+        "text-color": ["case", ["get", "available"], "#0eadd1", "#f79f11"]
       }
     }
   ]
 });
-
-// const profilesLayer = [
-//   {
-//     interactive: true,
-//     id: "clusters",
-//     type: "circle",
-//     source: "profiles",
-//     filter: ["has", "point_count"],
-//     paint: {
-//       "circle-color": [
-//         "step",
-//         ["get", "point_count"],
-//         "#51bbd6",
-//         10,
-//         "#f1f075",
-//         20,
-//         "#f28cb1"
-//       ],
-//       "circle-radius": ["step", ["get", "point_count"], 15, 10, 25, 20, 30]
-//     }
-//   },
-//   {
-//     id: "cluster-count",
-//     type: "symbol",
-//     source: "profiles",
-//     filter: ["has", "point_count"],
-//     layout: {
-//       "text-field": "{point_count_abbreviated}",
-//       "text-font": ["DIN Offc Pro Medium", "Arial Unicode MS Bold"],
-//       "text-size": 12
-//     }
-//   },
-//   {
-//     interactive: true,
-//     id: "unclustered-point",
-//     type: "circle",
-//     source: "profiles",
-//     filter: ["!", ["has", "point_count"]],
-//     paint: {
-//       "circle-color": "#11b4da",
-//       "circle-radius": 10,
-//       "circle-stroke-width": 1,
-//       "circle-stroke-color": "#fff"
-//     }
-//   }
-// ];
-
-// const mapStyle = mapBaseStyle.set("layers", [
-//   ...mapBaseStyle.get("layers"),
-//   ...profilesLayer
-// ]);
 
 export default mapBaseStyle;
