@@ -7,6 +7,7 @@ import TableHead from "@material-ui/core/TableHead";
 import TableRow from "@material-ui/core/TableRow";
 import { Props } from "./types";
 
+
 class BiographyTable extends React.Component<Props> {
   render() {
     const { classes } = this.props;
@@ -33,13 +34,7 @@ class BiographyTable extends React.Component<Props> {
           </TableHead>
           <TableBody>
             {Object.keys(bio)
-              .filter(
-                k =>
-                  k !== "name" &&
-                  k !== "reg_no" &&
-                  k !== "photo" &&
-                  k !== "coords"
-              )
+              .filter(k => k !== "name" && k !== "reg_no" && k !== "photo")
               .map(k => {
                 return (
                   <TableRow key={k}>
