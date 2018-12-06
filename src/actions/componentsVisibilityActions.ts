@@ -1,6 +1,7 @@
 import * as constants from "src/constants";
 import { Action } from "redux";
 
+
 export type ComponentsVisibilityActions =
   | OpenBiographyComponentAction
   | CloseBiographyComponentAction
@@ -12,7 +13,7 @@ export type ComponentsVisibilityActions =
 export interface OpenBiographyComponentAction extends Action<string> {}
 export interface CloseBiographyComponentAction extends Action<string> {}
 export interface OpenMultimediaComponentAction extends Action<string> {
-  payload?: {
+  payload: {
     date: string;
   };
 }
@@ -33,14 +34,12 @@ export function closeBiographyComponent(): CloseBiographyComponentAction {
 }
 
 export function openMultimediaComponent(
-  prams: OpenMultimediaComponentAction["payload"] = undefined
+  prams: OpenMultimediaComponentAction["payload"]
 ) {
-  const action: OpenMultimediaComponentAction = {
-    type: constants.OPEN_MULTIMEDIA_COMPONENT
+  return {
+    type: constants.OPEN_MULTIMEDIA_COMPONENT,
+    payload: prams
   };
-  if (prams) action.payload = prams;
-
-  return action;
 }
 
 export function closeMultimediaComponent(): CloseMultimediaComponentAction {
