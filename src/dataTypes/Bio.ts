@@ -1,10 +1,16 @@
 export default interface Bio {
   reg_no: string;
-  photo: string;
+  battalion: string;
   name: string;
+  alias: string;
+  photo: string;
   place_of_birth: string;
+  date_of_birth: string;
+  date_of_death: string;
   religion: string;
   occupation: string;
+  marital_status: string;
+  fate: string;
   street: string;
   city: string;
   state: string;
@@ -16,7 +22,6 @@ export default interface Bio {
   prev_military_service: string;
   enlist_date: string;
   rank: string;
-  unit: string;
   AWM_embark_roll_no: string;
   embark_details: string;
   summary: string;
