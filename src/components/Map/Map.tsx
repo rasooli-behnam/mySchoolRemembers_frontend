@@ -31,11 +31,12 @@ export default class Map extends React.Component<Props, State> {
     };
   }
 
-  flyToNewDestination = (coordinates: Coordinates) => {
+  flyToNewDestination = (coordinates: Coordinates, zoom: number) => {
     const viewport = {
       ...this.state.viewport,
       latitude: coordinates.lat,
       longitude: coordinates.lon,
+      zoom: zoom,
       transitionDuration: 5000,
       transitionInterpolator: new FlyToInterpolator(),
       transitionEasing: easeCubic
@@ -49,9 +50,9 @@ export default class Map extends React.Component<Props, State> {
   };
 
   handleTimelineChange = () => {
-    const newCoordinates = this.props.currentEvent.coords;
+    const { coords, zoom } = this.props.currentEvent;
     this.props.mapStartedToFly();
-    this.flyToNewDestination(newCoordinates);
+    this.flyToNewDestination(coords, zoom);
   };
 
   public render() {
@@ -87,7 +88,7 @@ const mapDefaultAttributes = {
   width: window.innerWidth,
   height: window.innerHeight,
   scrollZoom: false,
-  dragPan: true,
+  dragPan: false,
   dragRotate: false,
   doubleClickZoom: false,
   touchZoom: false
