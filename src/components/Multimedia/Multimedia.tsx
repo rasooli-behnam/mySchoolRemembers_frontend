@@ -23,6 +23,9 @@ export default class Multimedia extends React.Component<Props, State> {
           return (
             <Card key={i}>
               <CardActionArea>
+                <CardContent>
+                  <Typography component="p">{m.title}</Typography>
+                </CardContent>
                 <img
                   src={m.src}
                   alt={m.title}
@@ -35,7 +38,7 @@ export default class Multimedia extends React.Component<Props, State> {
                   }}
                 />
                 <CardContent>
-                  <Typography component="p">{m.title}</Typography>
+                  <Typography component="p">{m.desc}</Typography>
                 </CardContent>
               </CardActionArea>
             </Card>
