@@ -1,5 +1,5 @@
 import Event from "src/dataTypes/Event";
-import { mapStartedToFly, mapStoppedFlying, openMultimediaComponent } from "src/actions";
+import { mapStartedToFly, mapStoppedFlying } from "src/actions";
 import { Viewport } from "react-map-gl";
 
 
@@ -8,7 +8,6 @@ export interface Props {
   isTimelineChanged: boolean;
   mapStartedToFly: typeof mapStartedToFly;
   mapStoppedFlying: typeof mapStoppedFlying;
-  openMultimediaComponent: typeof openMultimediaComponent;
 }
 
 export interface State {
