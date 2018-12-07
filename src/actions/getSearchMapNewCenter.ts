@@ -1,5 +1,6 @@
 import * as constants from "src/constants";
 import { Action } from "redux";
+
 const geo = require("mapbox-geocoding");
 
 export interface GetSearchMapNewCenterAction extends Action<string> {
@@ -10,10 +11,7 @@ export default function getProfiles(
   condition: string
 ): GetSearchMapNewCenterAction {
   const result = new Promise(function(resolve, reject) {
-    geo.setAccessToken(
-      // process.env.REACT_APP_MapboxAccessToken
-      "pk.eyJ1IjoicmFzb29saS1iZWhuYW0iLCJhIjoiY2psaDl5ajd6MHVmbTNrcGtiY3VxZGQ5diJ9.qars2_NNloH9bcNMUEfHBA"
-    );
+    geo.setAccessToken(process.env.REACT_APP_MapboxAccessToken);
     geo.geocode(
       "mapbox.places",
       `${condition}, Australia`,
