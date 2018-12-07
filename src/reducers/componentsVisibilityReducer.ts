@@ -1,19 +1,21 @@
 import * as constants from "src/constants";
 import { AppState } from ".";
-import { ComponentsVisibilityActions } from "src/actions";
+import { ComponentsVisibilityActions, mapActions } from "src/actions";
+
+
 
 export default function(
   prevState: AppState,
-  action: ComponentsVisibilityActions
+  action: ComponentsVisibilityActions | mapActions
 ) {
   switch (action.type) {
     case constants.OPEN_BIOGRAPHY_COMPONENT:
       return { ...prevState.componentsVisibility, isBiographyOpen: true };
     case constants.CLOSE_BIOGRAPHY_COMPONENT:
       return { ...prevState.componentsVisibility, isBiographyOpen: false };
-    case constants.OPEN_MULTIMEDIA_COMPONENT:
+    case constants.MAP_STOPPED_FLYING:
       return { ...prevState.componentsVisibility, isMultimediaOpen: true };
-    case constants.CLOSE_MULTIMEDIA_COMPONENT:
+    case constants.MAP_STARTED_TO_FLY:
       return { ...prevState.componentsVisibility, isMultimediaOpen: false };
     case constants.OPEN_SEARCH_COMPONENT:
       return { ...prevState.componentsVisibility, isSearchOpen: true };
