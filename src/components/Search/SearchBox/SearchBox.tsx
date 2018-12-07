@@ -7,6 +7,7 @@ import {
   } from "@material-ui/core";
 import { Props, State } from "./types";
 
+
 export default class SearchBox extends React.Component<Props, State> {
   constructor(props: Props) {
     super(props);
@@ -81,4 +82,4 @@ export default class SearchBox extends React.Component<Props, State> {
   }
 }
 
-const catergories = ["city", "postcode"];
+const catergories = ["postcode", "city"];
