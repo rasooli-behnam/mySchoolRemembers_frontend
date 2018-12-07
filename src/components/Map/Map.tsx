@@ -35,7 +35,7 @@ export default class Map extends React.Component<Props, State> {
     const viewport = {
       ...this.state.viewport,
       latitude: coordinates.lat,
-      longitude: coordinates.lon,
+      longitude: coordinates.lon + this.calculateMapCenterOffset(zoom),
       zoom: zoom,
       transitionDuration: 5000,
       transitionInterpolator: new FlyToInterpolator(),
@@ -47,6 +47,16 @@ export default class Map extends React.Component<Props, State> {
     };
 
     this.setState({ viewport, marker });
+  };
+
+  // smaller zoom level results in bigger offset value
+  calculateMapCenterOffset = (currentZoom: number) => {
+    if (currentZoom > 20 || currentZoom < 0) return 0;
+
+    const maxZoom = 20;
+    const baseOffset = 0.00008;
+
+    return baseOffset * Math.pow(2, maxZoom - currentZoom);
   };
 
   handleTimelineChange = () => {
