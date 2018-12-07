@@ -9,7 +9,7 @@ export default class Buttons extends React.Component<Props> {
     const { classes, openBiographyComponent, openSearchComponent } = this.props;
     return (
       <MenuList className={classes.buttonsContainer}>
-        <MenuItem>
+        <MenuItem className={classes.menuItem}>
           <Button
             className={classes.button}
             onClick={openBiographyComponent}
@@ -18,7 +18,7 @@ export default class Buttons extends React.Component<Props> {
             Biography
           </Button>
         </MenuItem>
-        <MenuItem>
+        <MenuItem className={classes.menuItem}>
           <Button
             className={classes.button}
             onClick={openSearchComponent}

@@ -1,17 +1,23 @@
 import { createStyles } from "@material-ui/core";
 
-const buttonMargin = 25;
+const buttonMargin = 10;
 
 const styles = createStyles({
   buttonsContainer: {
     position: "absolute",
     top: buttonMargin,
-    right: buttonMargin
+    left: buttonMargin,
+    padding: 0
+  },
+  menuItem: {
+    padding: "9px 0px"
   },
   button: {
     backgroundColor: "#fcf79c",
     fontWeight: "bold",
-    width: 120
+    fontSize: 12,
+    width: 80,
+    opacity: 0.8
   }
 });
 
