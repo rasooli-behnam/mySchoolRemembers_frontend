@@ -1,12 +1,12 @@
 import * as constants from "src/constants";
 import { AppState } from ".";
-import { ComponentsVisibilityActions, mapActions } from "src/actions";
+import { ComponentsVisibilityActions, MapActions } from "src/actions";
 
 
 
 export default function(
   prevState: AppState,
-  action: ComponentsVisibilityActions | mapActions
+  action: ComponentsVisibilityActions | MapActions
 ) {
   switch (action.type) {
     case constants.OPEN_BIOGRAPHY_COMPONENT:

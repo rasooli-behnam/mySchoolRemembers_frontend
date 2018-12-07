@@ -1,12 +1,12 @@
 import * as constants from "src/constants";
 import { AppState } from ".";
-import { GetActiveProfileAction, mapActions, TimelineChangedAction } from "src/actions";
+import { GetActiveProfileAction, MapActions, TimelineChangedAction } from "src/actions";
 
 
 
 export default function(
   prevState: AppState,
-  action: TimelineChangedAction | mapActions | GetActiveProfileAction
+  action: TimelineChangedAction | MapActions | GetActiveProfileAction
 ): AppState["timelineState"] {
   switch (action.type) {
     case `${constants.GET_ACTIVE_PROFILE}_FULFILLED`:

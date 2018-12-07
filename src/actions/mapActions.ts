@@ -1,7 +1,8 @@
 import * as constants from "src/constants";
 import { Action } from "redux";
 
-export type mapActions = MapStartedToFlyAction | MapStoppedFlyingAction;
+
+export type MapActions = MapStartedToFlyAction | MapStoppedFlyingAction;
 
 interface MapStartedToFlyAction extends Action<string> {}
 interface MapStoppedFlyingAction extends Action<string> {}

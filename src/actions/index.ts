@@ -13,7 +13,7 @@ import {
   openSearchComponent,
   OpenSearchComponentAction
   } from "./componentsVisibilityActions";
-import { mapActions, mapStartedToFly, mapStoppedFlying } from "./mapActions";
+import { MapActions, mapStartedToFly, mapStoppedFlying } from "./mapActions";
 
 export {
   getActiveProfile,
@@ -33,7 +33,7 @@ export {
   OpenBiographyComponentAction,
   openSearchComponent,
   OpenSearchComponentAction,
-  mapActions,
+  MapActions,
   mapStartedToFly,
   mapStoppedFlying
 };
