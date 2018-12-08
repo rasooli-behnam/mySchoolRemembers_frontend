@@ -1,13 +1,14 @@
 import * as constants from "src/constants";
 import { Action } from "redux";
 
+
 const geo = require("mapbox-geocoding");
 
 export interface GetSearchMapNewCenterAction extends Action<string> {
   payload: any;
 }
 
-export default function getProfiles(
+export default function getSearchMapNewCenter(
   condition: string
 ): GetSearchMapNewCenterAction {
   const result = new Promise(function(resolve, reject) {
