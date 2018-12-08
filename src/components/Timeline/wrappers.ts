@@ -6,9 +6,11 @@ import { connect } from "react-redux";
 import { Dispatch } from "redux";
 import { timelineChanged, TimelineChangedAction } from "src/actions";
 
+
 const theComponentWithStyles = withStyles(styles)(theComponent);
 
 const mapAppStateToProps = (appState: AppState) => ({
+  currentIndex: appState.currentEventIndex,
   dates: appState.activeProfile.events.map(e => e.date),
   isDisabled: appState.timelineState.isDisabled
 });
