@@ -12,6 +12,11 @@ const styles = createStyles({
     maxHeight: window.innerHeight - containerMargin * 2,
     width: containerWidth,
     overflowY: "auto"
+  },
+  title: {
+    fontSize: 20,
+    fontWeight: "bold",
+    color: "#333"
   }
 });
 
