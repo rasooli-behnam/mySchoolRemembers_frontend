@@ -25,7 +25,7 @@ class BiographyTable extends React.Component<Props> {
                 <h1>{bio.name}</h1>
                 <h2>Regimental: {bio.reg_no}</h2>
                 <h2>{bio.battalion}</h2>
-                <h3>{bio.summary}</h3>
+                <p>{bio.summary}</p>
               </TableCell>
             </TableRow>
             <TableRow>
