@@ -1,7 +1,7 @@
 import * as constants from "src/constants";
-import * as profiles from "src/sampleData/profiles.json";
 import { AppState } from ".";
 import { GetProfilesAction } from "src/actions/getProfiles";
+
 
 export default function(prevState: AppState, action: GetProfilesAction) {
   if (action.type === `${constants.GET_SEARCH_MAP_CENTER}_FULFILLED`) {
