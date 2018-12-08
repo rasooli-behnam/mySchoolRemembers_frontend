@@ -1,3 +1,4 @@
+import Profile from "src/dataTypes/Profile";
 import styles from "./styles";
 import theComponent from "./Search";
 import withStyles from "@material-ui/core/styles/withStyles";
@@ -16,7 +17,7 @@ const mapAppStateToProps = (appState: AppState) => ({
 
 const mapDispatchToProps = (dispatch: Dispatch) => ({
   closeComponent: () => dispatch(closeSearchComponent()),
-  getActiveProfile: (reg_no: string) => dispatch(getActiveProfile(reg_no))
+  getActiveProfile: (profile: Profile) => dispatch(getActiveProfile(profile))
 });
 
 export default connect(

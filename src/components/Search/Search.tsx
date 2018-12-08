@@ -40,8 +40,8 @@ export default class Search extends React.Component<Props, State> {
     this.setState({ isPopoverOpen: false });
   };
 
-  loadProfile = (reg_no: string) => {
-    this.props.getActiveProfile(reg_no);
+  loadProfile = (profile: Profile) => {
+    this.props.getActiveProfile(profile);
     this.setState({ isPopoverOpen: false });
   };
 
@@ -65,7 +65,6 @@ export default class Search extends React.Component<Props, State> {
   };
 
   handleMapClick = (event: any) => {
-    console.log(event);
     const { features, lngLat } = event;
     if (features) {
       features.find(
@@ -165,7 +164,7 @@ export default class Search extends React.Component<Props, State> {
               </Typography>
               <Button
                 className={classes.popoverButton}
-                onClick={() => this.loadProfile(profile.reg_no)}
+                onClick={() => this.loadProfile(profile)}
                 disabled={!profile.available}
                 variant="contained"
               >

@@ -8,9 +8,10 @@ import Timeline from "../Timeline";
 import { CssBaseline } from "@material-ui/core";
 import { Props } from "./types";
 
+
 export default class App extends React.Component<Props> {
   componentDidMount() {
-    this.props.getActiveProfile(initialProfileRegNo);
+    this.props.getActiveProfile(initialProfile);
   }
 
   public render() {
@@ -28,4 +29,9 @@ export default class App extends React.Component<Props> {
   }
 }
 
-const initialProfileRegNo = "1553";
+const initialProfile = {
+  available: true,
+  reg_no: "19632",
+  name: "Charles Harold LILLEY",
+  battalion: "8th Field Artillery Brigade"
+};
