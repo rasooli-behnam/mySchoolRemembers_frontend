@@ -40,7 +40,6 @@ export interface AppState {
   searchMapCenter: Coordinates;
   timelineState: {
     isChanged: boolean;
-    isDisabled: boolean;
   };
   multimedias: Multimedia[];
 }

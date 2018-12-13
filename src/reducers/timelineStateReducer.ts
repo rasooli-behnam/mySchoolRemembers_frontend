@@ -1,12 +1,12 @@
 import * as constants from "src/constants";
 import { AppState } from ".";
-import { GetActiveProfileAction, MapActions, TimelineChangedAction } from "src/actions";
+import { GetActiveProfileAction, TimelineChangedAction } from "src/actions";
 
 
 
 export default function(
   prevState: AppState,
-  action: TimelineChangedAction | MapActions | GetActiveProfileAction
+  action: TimelineChangedAction | GetActiveProfileAction
 ): AppState["timelineState"] {
   switch (action.type) {
     case `${constants.GET_ACTIVE_PROFILE}_FULFILLED`:
@@ -14,9 +14,7 @@ export default function(
     case constants.TIMELINE_CHANGED:
       return { ...prevState.timelineState, isChanged: true };
     case constants.MAP_STARTED_TO_FLY:
-      return { ...prevState.timelineState, isChanged: false, isDisabled: true };
-    case constants.MAP_STOPPED_FLYING:
-      return { ...prevState.timelineState, isDisabled: false };
+      return { ...prevState.timelineState, isChanged: false };
   }
 
   return prevState && prevState.timelineState
@@ -25,6 +23,5 @@ export default function(
 }
 
 const initialState: AppState["timelineState"] = {
-  isChanged: false,
-  isDisabled: false
+  isChanged: false
 };
