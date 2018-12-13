@@ -1,4 +1,4 @@
-import * as mapProfiles from "src/sampleData/victoria_map_profiles.json";
+import * as mapProfiles from "src/sampleData/profiles.json";
 import { fromJS } from "immutable";
 
 
