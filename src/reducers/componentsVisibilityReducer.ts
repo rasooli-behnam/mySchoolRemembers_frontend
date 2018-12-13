@@ -13,6 +13,8 @@ export default function(
       return { ...prevState.componentsVisibility, isBiographyOpen: true };
     case constants.CLOSE_BIOGRAPHY_COMPONENT:
       return { ...prevState.componentsVisibility, isBiographyOpen: false };
+    case `${constants.MAP_STOPPED_FLYING}_FULFILLED`:
+      return { ...prevState.componentsVisibility, isMultimediaOpen: true };
     case constants.MAP_STOPPED_FLYING:
       return { ...prevState.componentsVisibility, isMultimediaOpen: true };
     case constants.MAP_STARTED_TO_FLY:

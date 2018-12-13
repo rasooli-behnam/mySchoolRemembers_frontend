@@ -47,7 +47,7 @@ export default class Map extends React.Component<Props, State> {
     };
 
     this.setState({ viewport, marker });
-    this.props.mapStoppedFlying(); //this is for fixng the bug - if same coords are suplied, map never starts transitioning
+    this.props.mapStoppedFlying(false); //this is for fixng the bug - if same coords are suplied, map never starts transitioning
   };
 
   // smaller zoom level results in bigger offset value
@@ -81,7 +81,7 @@ export default class Map extends React.Component<Props, State> {
           this.setState({ viewport });
         }}
         onTransitionStart={() => this.props.mapStartedToFly()}
-        onTransitionEnd={() => this.props.mapStoppedFlying()}
+        onTransitionEnd={() => this.props.mapStoppedFlying(true)}
       >
         <Marker
           longitude={longitude}

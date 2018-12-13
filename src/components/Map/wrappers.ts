@@ -12,7 +12,8 @@ const mapAppStateToProps = (appState: AppState) => ({
 
 const mapDispatchToProps = (dispatch: Dispatch) => ({
   mapStartedToFly: () => dispatch(mapStartedToFly()),
-  mapStoppedFlying: () => dispatch(mapStoppedFlying())
+  mapStoppedFlying: (withDelay: boolean) =>
+    dispatch(mapStoppedFlying(withDelay))
 });
 
 export default connect(
