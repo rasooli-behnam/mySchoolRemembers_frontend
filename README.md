@@ -5,5 +5,9 @@ I'm using the following technologies:
 
 - React
 - Redux
+- redux-promise
 - Material-UI
 - Typescript
+- Mapbox API
+
+A running instance can be viewed at [http://msr-frontend.appspot.com/](http://msr-frontend.appspot.com/)
