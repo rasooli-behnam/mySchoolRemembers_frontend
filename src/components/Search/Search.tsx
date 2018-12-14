@@ -50,7 +50,7 @@ export default class Search extends React.Component<Props, State> {
       ...this.state.viewport,
       latitude: coordinates.lat,
       longitude: coordinates.lon,
-      zoom: 12,
+      zoom: 13,
       transitionDuration: 5000,
       transitionInterpolator: new FlyToInterpolator(),
       transitionEasing: easeCubic
