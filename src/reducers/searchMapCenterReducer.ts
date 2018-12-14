@@ -15,6 +15,6 @@ export default function(prevState: AppState, action: GetProfilesAction) {
 }
 
 const initialState = {
-  lat: -37.82,
-  lon: 145.04
+  lat: -24.5,
+  lon: 135.5
 };

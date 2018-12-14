@@ -31,7 +31,7 @@ export default class Search extends React.Component<Props, State> {
       viewport: {
         latitude: center.lat,
         longitude: center.lon,
-        zoom: 10
+        zoom: 3
       }
     };
   }
@@ -50,6 +50,7 @@ export default class Search extends React.Component<Props, State> {
       ...this.state.viewport,
       latitude: coordinates.lat,
       longitude: coordinates.lon,
+      zoom: 12,
       transitionDuration: 5000,
       transitionInterpolator: new FlyToInterpolator(),
       transitionEasing: easeCubic
